@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #007bff;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px auto 120px;
+    color: white;
+}
+
+.main {
+    width: 100%;
+    min-height: 380px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.service {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    box-shadow: 0 0 20px -15px #030380;
+}
+
+.service-logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background: white;
+    border: 18px solid #007bff;
+}
+
+.service-logo img {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.service h4 {
+    height: 35px;
+    width: 80%;
+    background: white;
+    margin: 50px auto;
+    position: relative;
+}
+
+.service h4::after {
+    content: '';
+    height: 30px;
+    width: 40px;
+    background: linear-gradient(to right, white, #007bff);
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: -1;
+}
+
+.service h4::before {
+    content: '';
+    height: 30px;
+    width: 40px;
+    background: linear-gradient(to right, #007bff, white);
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+
+}
+.main :hover .service {
+    transform: translatey(-50px);
+}
+.main :hover .shadowone {
+    transform: translatey(-25px);
+}

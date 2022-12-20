@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Allura', cursive;
+    color: red;
+}
+
+.nav-link {
+    color: rgb(10, 10, 94);
+}
+
+.nav-link:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+.nav-item {
+    color: rgb(10, 10, 94);
+    font-weight: 500;
+    padding-left: 35px;
+}
+
+.btn0 {
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(248, 83, 83);
+}
+
+.btn0:hover {
+    background-color: rgb(214, 11, 11);
+    transition: all 0.4s;
+}
+
+.btn1 {
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    color: rgb(248, 20, 20);
+    outline: none;
+    border: 2px solid rgb(248, 20, 20);
+}
+
+.btn1:hover {
+    background-color: rgb(214, 11, 11);
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+/*=================== main section=============================================*/
+
+.main {
+    background: url("https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(7, 7, 78);
+}
+
+.main input {
+    height: 71px;
+    width: 65%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+
+.btn2 {
+    height: 70px;
+    width: 25%;
+    background-color: rgb(248, 20, 20);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-left: -4px;
+
+}
+
+.btn2 :hover {
+    background-color: rgb(214, 11, 11);
+    transition: all 0.4s;
+}
+
+/*=================== main section=============================================*/
+
+.red {
+    color: red;
+
+}
+
+.ceta h1 {
+    font-size: 3.5rem;
+    color: rgb(7, 7, 78);
+
+}
+.ceta img {
+    border-radius: 50%;
+}
+
+.ceta .card:hover {
+    color: red;
+    cursor: pointer;
+    transition: all 1s;
+    box-shadow: -1px 3px 24px 0px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: -1px 3px 24px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: -1px 3px 24px 0px rgba(0, 0, 0, 0.6);
+}
+
+.btn3 {
+    height: 70px;
+    width: 70%;
+    border: 1px solid rgb(130, 130, 231);
+    color: rgb(130, 130, 231);
+    background: transparent;
+    border-radius: 5px;
+    transition: all 0.4s;
+
+}
+
+.btn3:hover {
+    background: rgb(102, 102, 214);
+    color: white;
+    border: none;
+    outline: none;
+    transition: all 1s;
+}
+
+/*===================boxes section=============================================*/
+
+.resume {
+    background: url(https://images.unsplash.com/photo-1501250987900-211872d97eaa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGpvYiUyMHNlYXJjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60 )no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+
+}
+
+.resume h1 {
+    font-size: 3.8rem;
+}
+.btn31 {
+    height: 70px;
+    width: 70%;
+    border: 1px solid rgb(45, 45, 228);
+    color: white;
+    background: transparent;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn31:hover {
+    background: rgb(102, 102, 214);
+    color: white;
+    border: none;
+    outline: none;
+    transition: all 1s;
+}
+
+
+
+
+/*===================next section=============================================*/
+
+.job h1 {
+    font-size: 3.5rem;
+color: rgb(7, 7, 78);
+}
+.btn4 {
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: rgb(243, 73, 73);
+    color: white;
+    transition: all 0.4s;
+
+}
+.btn4:hover {
+    background: rgb(214, 11, 11);
+    color: white;
+    transition: all 0.4s;
+    outline: none;
+    border: none;
+}
+
+/*===================next1 section=============================================*/
+.apply {
+    background: url(https://media.istockphoto.com/id/639961962/photo/yoga-as-physical-and-spiritual-therapy-mixed-media.jpg?s=612x612&w=0&k=20&c=pZtvyMhXC6AGejJEzKwE0dZbSIA3X6cfELtX83XllQg=)no-repeat;
+    background-size: cover;
+   /* height: 110vh;*/
+    width: 100%;
+
+}
+.apply .card  {
+   background-color: rgba(4, 26, 100, 0.801);
+
+   color: white;
+
+}
+.cir1 {
+height: 100px;
+width: 100px;
+background: white;
+border-radius: 50%;
+display: inline-block;
+
+}
+.cir1 img {
+    border-radius: 50%;
+}
+
+
+
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.para {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.btn5 {
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: rgb(243, 73, 73);
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s;
+
+}
+ .btn5:hover {
+    background: rgb(214, 11, 11);
+    outline: none;
+    border: none;
+    transition: all 1s;
+
+ }
+
+
+ .footer {
+    background: #121626;
+    color: white;
+ }
+ .footer p {
+    margin: 0;
+    color: #696969;
+ }
+ .link {
+    color: #6b6b72;
+    transition: all 0.4s;
+ }
+
+ .link:hover {
+    color: #ff2962;
+    padding-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer; 
+ }
+ .footer input {
+    height: 45px;
+    width: 70%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+
+ .footer button {
+height: 45px ;
+width: 20%;
+border: none;
+outline: none;
+padding-left: -12px;
+border-top: #ff2962; 
+background: #ff2962;
+color: white;
+margin-top: 40px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+
+
+}
+/*===================whatsapp float section=============================================*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index: 5;
+}
+
+.my-float{
+	margin-top:16px;
+   
+}
