@@ -256,7 +256,7 @@ display: inline-block;
     transition: all 1s;
 
  }
-
+/*===================footer section=============================================*/
 
  .footer {
     background: #121626;
@@ -302,6 +302,9 @@ border-bottom-right-radius: 5px;
 
 
 }
+/*===================footer section=============================================*/
+
+
 /*===================whatsapp float section=============================================*/
 
 .float{

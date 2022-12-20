@@ -3,8 +3,72 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="jobportal.css">
     <title>ABOUT</title>
     <style>
+        
+        /*=================== nav section start =============================================*/
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Allura', cursive;
+  color: red;
+  display: flex;
+}
+
+.nav-link {
+  color: rgb(10, 10, 94);
+}
+
+.nav-link:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.nav-item {
+  color: rgb(10, 10, 94);
+  font-weight: 500;
+  padding-left: 35px;
+}
+
+.btn0 {
+  height: 52px;
+  width: 130px;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s;
+  background-color: rgb(248, 83, 83);
+}
+
+.btn0:hover {
+  background-color: rgb(214, 11, 11);
+  transition: all 0.4s;
+}
+
+.btn1 {
+  height: 52px;
+  width: 130px;
+  background-color: transparent;
+  color: rgb(248, 20, 20);
+  outline: none;
+  border: 2px solid rgb(248, 20, 20);
+}
+
+.btn1:hover {
+  background-color: rgb(214, 11, 11);
+  transition: all 0.4s;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+/*=================== nav section end =============================================*/
+        
+        
+        
+        
+        
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
@@ -76,10 +140,103 @@
                 display: block;
             }
         }
+
+/*===================footer section=============================================*/
+
+.footer {
+    background: #121626;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer p {
+    margin: 0;
+    color: #696969;
+ }
+ .link {
+    color: #6b6b72;
+    transition: all 0.4s;
+ }
+
+ .link:hover {
+    color: #ff2962;
+    padding-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer; 
+ }
+ .footer input {
+    height: 45px;
+    width: 70%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+
+ .footer button {
+height: 45px ;
+width: 20%;
+border: none;
+outline: none;
+padding-left: -12px;
+border-top: #ff2962; 
+background: #ff2962;
+color: white;
+margin-top: 40px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+
+
+}
+/*===================footer section=============================================*/
+
     </style>
 </head>
 
 <body>
+
+     <!--===============================nav bar ================================================================-->
+
+     <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">JobFinder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="./About.html">
+                            About
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn0">Register</button>
+                    <button class="btn1 mx-2">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--===============================nav bar end ================================================================-->
+
 
     <div class="about-section">
         <h1>About Us</h1>
@@ -131,6 +288,50 @@
             </div>
         </div>
     </div>
+
+     
+    <!--===============================footer================================================================-->
+
+
+    <section class="footer pt-5">
+        <div class="container-fluid pt-5">
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <div class="row pb-4">
+                        <div class="col-lg-3">
+                            <h3 class="PY-5">ABOUT US</h3>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, mollitia!</P>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3 class="PY-5">CONTACT</h3>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, mollitia!</P>
+                            <P class="link pt-3">Phone : +91 1234567890</P>
+                            <P class="link">E-mail : 12345678@gmail.com</P>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3 class="PY-5">IMPORTANT LINKS</h3>
+                            <P class="link">View project</P>
+                            <P class="link">Contact us</P>
+                            <P class="link">Testimonial</P>
+                            <P class="link">Properties</P>
+                            <P class="link">Support</P>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3 class="PY-5">NEWS LETTER</h3>
+                            <P>Lorem ipsum dolor sit, amet consectetur </BR>
+                                adipisicing elit. Sit, sequi?</P>
+
+                            <input type="text" placeholder="Enter your email">
+                            <button>Go</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--===============================footer end================================================================-->
+
 
 </body>
 
