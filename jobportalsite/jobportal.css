@@ -67,6 +67,21 @@
     width: 100%;
 
 }
+@media (max-width:500x) {
+    .btn2 {
+        height: 70px;
+        width: 25%;
+        background-color: rgb(33, 30, 30);
+        color: white;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.4s;
+        margin-left: -4px;
+    
+    }
+} 
+    
+
 
 .main h1 {
     font-size: 5rem;
