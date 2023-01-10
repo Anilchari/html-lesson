@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -23,12 +24,115 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body>
     <!-- header-start -->
-	<?php require_once("inc/header.php");?>
+    <header class="header-transparent">
+        <div id="sticky-header" class="main-menu-area menu-padding pl-55 pr-55">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-7 col-md-6 col-8">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo.png" style="width:170px;" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 d-none d-xl-block">
+                        <div class="main-menu text-left ml-15">
+                            <nav id="mobile-menu">
+                                <ul>
+
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="about_us.html">About Us</a></li>
+                                    <!--<li><a href="course.html">AEM</a></li>-->
+
+                                    <li><a href="#">Skills <i class="far fa-angle-down"></i></a>
+                                        <ul class="sub-menu text-left">
+                                            <li><a href="skills.html">Devops</a></li>
+                                            <li><a href="#">AE</a></li>
+                                            <li><a href="#">Cyber Security</a></li>
+                                            <li><a href="#">Python</a></li>
+                                            <li><a href="#">Data Analytics</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li><a href="#">Events <i class="far fa-angle-down"></i></a>
+                                            <ul class="sub-menu text-left">
+                                                <li><a href="events.html">Events</a>
+                                                <li><a href="events-details.html">Events Details</a>
+                                            </ul>
+                                        </li>-->
+
+                                    <li><a href="contact_us.html">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-5 col-md-6 col-4">
+                        <div class="header-right d-sm-flex align-items-center justify-content-end">
+                            <div class="header-icon d-none d-md-inline-block">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                            <!--<div class="header-sing d-none d-md-inline-block">
+                                    <a href="contact.html"> <i class="far fa-user-circle"></i>sing in</a>
+                                </div>-->
+                            <div class="hamburger-menu menu-bar info-bar">
+                                <a href="#"><img src="assets/img/icon/bar.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <!-- header-start -->
     <!-- slide-bar start -->
-	<?php require_once("inc/side_bar.php");?>
+    <aside class="slide-bar">
+        <div class="close-mobile-menu">
+            <a href="javascript:void(0);"><i class="fas fa-times"></i></a>
+        </div>
+
+        <!-- offset-sidebar start -->
+        <div class="offset-sidebar">
+            <div class="offset-widget offset-logo mb-30">
+                <a href="index.php">
+                    <img src="assets/img/side_bar_logo.png" style="width:200px;" alt="logo">
+                </a>
+            </div>
+            <div class="offset-widget mb-40">
+                <div class="info-widget">
+                    <h4 class="offset-title mb-20">About Us</h4>
+                    <p class="mb-30">
+                        We simplify your career upgrade just like AEM simplifies the management of a website’s content.
+                    </p>
+                    <a class="c-btn btn-round-02" href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="offset-widget mb-30 pr-10">
+                <div class="info-widget info-widget2">
+                    <h4 class="offset-title mb-20">Contact Info</h4>
+                    <p> <i class="fal fa-address-book"></i> Bangalore, Karnataka,India.</p>
+                    <p> <i class="fal fa-phone"></i> +91 7975935848, +91 7204025956</p>
+                    <p> <i class="fal fa-envelope-open"></i> info@nxtecs.com </p>
+                </div>
+            </div>
+        </div>
+        <!-- offset-sidebar end -->
+
+        <!-- side-mobile-menu start -->
+        <nav class="side-mobile-menu">
+            <ul id="mobile-menu-active">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- side-mobile-menu end -->
+    </aside>
+    <div class="body-overlay"></div>
     <!-- slide-bar end -->
     <main>
         <!--page-title-area start-->
@@ -81,7 +185,8 @@
                                             <a href="#"><i class="fas fa-star-half-alt"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Best Courses For Learning
+                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Best Courses For
+                                            Learning
                                             English Courses</a></h4>
                                     <div class="course-meta">
                                         <span><i class="far fa-users"></i> <a href="#">25</a></span>
@@ -112,9 +217,10 @@
                                         <span>$59.95</span>
                                     </div>
                                 </div>
-                                <p>Sed ut perspiciatis unde omnis iste natus 
+                                <p>Sed ut perspiciatis unde omnis iste natus
                                     error sit voluptatem accusantium dolorque laudantium totam rem aperiam</p>
-                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i class="far fa-arrow-right"></i></a>
+                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i
+                                        class="far fa-arrow-right"></i></a>
                                 <div class="course-meta">
                                     <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                     <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -149,8 +255,9 @@
                                             <a href="#"><i class="fas fa-star-half-alt"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Learning About It Consulting 
-                                        Business Solutions </a></h4>
+                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Learning About It
+                                            Consulting
+                                            Business Solutions </a></h4>
                                     <div class="course-meta">
                                         <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                         <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -180,9 +287,10 @@
                                         <span>$59.95</span>
                                     </div>
                                 </div>
-                                <p>Sed ut perspiciatis unde omnis iste natus 
+                                <p>Sed ut perspiciatis unde omnis iste natus
                                     error sit voluptatem accusantium dolorque laudantium totam rem aperiam</p>
-                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i class="far fa-arrow-right"></i></a>
+                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i
+                                        class="far fa-arrow-right"></i></a>
                                 <div class="course-meta">
                                     <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                     <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -217,8 +325,9 @@
                                             <a href="#"><i class="fas fa-star-half-alt"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Introduced About Basic Web 
-                                        Design For Begineers</a></h4>
+                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Introduced About
+                                            Basic Web
+                                            Design For Begineers</a></h4>
                                     <div class="course-meta">
                                         <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                         <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -248,9 +357,10 @@
                                         <span>$59.95</span>
                                     </div>
                                 </div>
-                                <p>Sed ut perspiciatis unde omnis iste natus 
+                                <p>Sed ut perspiciatis unde omnis iste natus
                                     error sit voluptatem accusantium dolorque laudantium totam rem aperiam</p>
-                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i class="far fa-arrow-right"></i></a>
+                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i
+                                        class="far fa-arrow-right"></i></a>
                                 <div class="course-meta">
                                     <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                     <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -316,9 +426,10 @@
                                         <span>$59.95</span>
                                     </div>
                                 </div>
-                                <p>Sed ut perspiciatis unde omnis iste natus 
+                                <p>Sed ut perspiciatis unde omnis iste natus
                                     error sit voluptatem accusantium dolorque laudantium totam rem aperiam</p>
-                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i class="far fa-arrow-right"></i></a>
+                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i
+                                        class="far fa-arrow-right"></i></a>
                                 <div class="course-meta">
                                     <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                     <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -353,8 +464,9 @@
                                             <a href="#"><i class="fas fa-star-half-alt"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Learning About It Consulting 
-                                        Business Solutions </a></h4>
+                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Learning About It
+                                            Consulting
+                                            Business Solutions </a></h4>
                                     <div class="course-meta">
                                         <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                         <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -384,9 +496,10 @@
                                         <span>$59.95</span>
                                     </div>
                                 </div>
-                                <p>Sed ut perspiciatis unde omnis iste natus 
+                                <p>Sed ut perspiciatis unde omnis iste natus
                                     error sit voluptatem accusantium dolorque laudantium totam rem aperiam</p>
-                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i class="far fa-arrow-right"></i></a>
+                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i
+                                        class="far fa-arrow-right"></i></a>
                                 <div class="course-meta">
                                     <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                     <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -421,8 +534,9 @@
                                             <a href="#"><i class="fas fa-star-half-alt"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Introduced About Basic Web 
-                                        Design For Begineers</a></h4>
+                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Introduced About
+                                            Basic Web
+                                            Design For Begineers</a></h4>
                                     <div class="course-meta">
                                         <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                         <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -452,9 +566,10 @@
                                         <span>$59.95</span>
                                     </div>
                                 </div>
-                                <p>Sed ut perspiciatis unde omnis iste natus 
+                                <p>Sed ut perspiciatis unde omnis iste natus
                                     error sit voluptatem accusantium dolorque laudantium totam rem aperiam</p>
-                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i class="far fa-arrow-right"></i></a>
+                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i
+                                        class="far fa-arrow-right"></i></a>
                                 <div class="course-meta">
                                     <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                     <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -489,7 +604,8 @@
                                             <a href="#"><i class="fas fa-star-half-alt"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Best Courses For Learning
+                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Best Courses For
+                                            Learning
                                             English Courses</a></h4>
                                     <div class="course-meta">
                                         <span><i class="far fa-users"></i> <a href="#">25</a></span>
@@ -520,7 +636,7 @@
                                         <span>$59.95</span>
                                     </div>
                                 </div>
-                                <p>Sed ut perspiciatis unde omnis iste natus 
+                                <p>Sed ut perspiciatis unde omnis iste natus
                                     error sit voluptatem accusantium dolorque laudantium totam rem aperiam</p>
                                 <a class="c-btn mb-50" href="#">get enrolled <i class="far fa-arrow-right"></i></a>
                                 <div class="course-meta">
@@ -557,8 +673,9 @@
                                             <a href="#"><i class="fas fa-star-half-alt"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Learning About It Consulting 
-                                        Business Solutions </a></h4>
+                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Learning About It
+                                            Consulting
+                                            Business Solutions </a></h4>
                                     <div class="course-meta">
                                         <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                         <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -588,9 +705,10 @@
                                         <span>$59.95</span>
                                     </div>
                                 </div>
-                                <p>Sed ut perspiciatis unde omnis iste natus 
+                                <p>Sed ut perspiciatis unde omnis iste natus
                                     error sit voluptatem accusantium dolorque laudantium totam rem aperiam</p>
-                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i class="far fa-arrow-right"></i></a>
+                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i
+                                        class="far fa-arrow-right"></i></a>
                                 <div class="course-meta">
                                     <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                     <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -625,8 +743,9 @@
                                             <a href="#"><i class="fas fa-star-half-alt"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Introduced About Basic Web 
-                                        Design For Begineers</a></h4>
+                                    <h4 class="semi-title pb-30 mb-20"><a href="courses-details.html">Introduced About
+                                            Basic Web
+                                            Design For Begineers</a></h4>
                                     <div class="course-meta">
                                         <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                         <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -656,9 +775,10 @@
                                         <span>$59.95</span>
                                     </div>
                                 </div>
-                                <p>Sed ut perspiciatis unde omnis iste natus 
+                                <p>Sed ut perspiciatis unde omnis iste natus
                                     error sit voluptatem accusantium dolorque laudantium totam rem aperiam</p>
-                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i class="far fa-arrow-right"></i></a>
+                                <a class="c-btn mb-50" href="courses-details.html">get enrolled <i
+                                        class="far fa-arrow-right"></i></a>
                                 <div class="course-meta">
                                     <span><i class="far fa-users"></i> <a href="#">25</a></span>
                                     <span><i class="far fa-book"></i> <a href="#">36hr</a></span>
@@ -671,7 +791,8 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="course-btn-02 text-center mt-35 mb-30">
-                            <a class="c-btn btn-round-02" href="courses.html">view all courses <i class="fal fa-long-arrow-right"></i></a>
+                            <a class="c-btn btn-round-02" href="courses.html">view all courses <i
+                                    class="fal fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -900,8 +1021,8 @@
         </div>
         <!-- blog-area-end -->
 
-         <!-- brand-area-start -->
-         <div class="brand-area theme-bg pb-65 pt-65">
+        <!-- brand-area-start -->
+        <div class="brand-area theme-bg pb-65 pt-65">
             <div class="container">
                 <div class="row brand-active">
                     <div class="col-xl-2 text-center">
@@ -939,7 +1060,7 @@
         </div>
         <!-- brand-area-end -->
         <!-- footer-area-start -->
-		<?php require_once("inc/footer.php");?>
+        <?php require_once("inc/footer.php");?>
         <!-- footer-area-end -->
     </main>
     <!-- JS here -->
@@ -964,4 +1085,5 @@
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>

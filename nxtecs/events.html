@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -21,14 +22,117 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body>
     <!-- header-start -->
-	<?php require_once("inc/header.php");?>
+    <header class="header-transparent">
+        <div id="sticky-header" class="main-menu-area menu-padding pl-55 pr-55">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-7 col-md-6 col-8">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo.png" style="width:170px;" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 d-none d-xl-block">
+                        <div class="main-menu text-left ml-15">
+                            <nav id="mobile-menu">
+                                <ul>
+
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="about_us.html">About Us</a></li>
+                                    <!--<li><a href="course.html">AEM</a></li>-->
+
+                                    <li><a href="#">Skills <i class="far fa-angle-down"></i></a>
+                                        <ul class="sub-menu text-left">
+                                            <li><a href="skills.html">Devops</a></li>
+                                            <li><a href="#">AE</a></li>
+                                            <li><a href="#">Cyber Security</a></li>
+                                            <li><a href="#">Python</a></li>
+                                            <li><a href="#">Data Analytics</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li><a href="#">Events <i class="far fa-angle-down"></i></a>
+                                        <ul class="sub-menu text-left">
+                                            <li><a href="events.html">Events</a>
+                                            <li><a href="events-details.html">Events Details</a>
+                                        </ul>
+                                    </li>-->
+
+                                    <li><a href="contact_us.html">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-5 col-md-6 col-4">
+                        <div class="header-right d-sm-flex align-items-center justify-content-end">
+                            <div class="header-icon d-none d-md-inline-block">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                            <!--<div class="header-sing d-none d-md-inline-block">
+                                <a href="contact.html"> <i class="far fa-user-circle"></i>sing in</a>
+                            </div>-->
+                            <div class="hamburger-menu menu-bar info-bar">
+                                <a href="#"><img src="assets/img/icon/bar.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <!-- header-start -->
     <!-- slide-bar start -->
-	<?php require_once("inc/side_bar.php");?>
+    <aside class="slide-bar">
+        <div class="close-mobile-menu">
+            <a href="javascript:void(0);"><i class="fas fa-times"></i></a>
+        </div>
+
+        <!-- offset-sidebar start -->
+        <div class="offset-sidebar">
+            <div class="offset-widget offset-logo mb-30">
+                <a href="index.php">
+                    <img src="assets/img/side_bar_logo.png" style="width:200px;" alt="logo">
+                </a>
+            </div>
+            <div class="offset-widget mb-40">
+                <div class="info-widget">
+                    <h4 class="offset-title mb-20">About Us</h4>
+                    <p class="mb-30">
+                        We simplify your career upgrade just like AEM simplifies the management of a website’s content.
+                    </p>
+                    <a class="c-btn btn-round-02" href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="offset-widget mb-30 pr-10">
+                <div class="info-widget info-widget2">
+                    <h4 class="offset-title mb-20">Contact Info</h4>
+                    <p> <i class="fal fa-address-book"></i> Bangalore, Karnataka,India.</p>
+                    <p> <i class="fal fa-phone"></i> +91 7975935848, +91 7204025956</p>
+                    <p> <i class="fal fa-envelope-open"></i> info@nxtecs.com </p>
+                </div>
+            </div>
+        </div>
+        <!-- offset-sidebar end -->
+
+        <!-- side-mobile-menu start -->
+        <nav class="side-mobile-menu">
+            <ul id="mobile-menu-active">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- side-mobile-menu end -->
+    </aside>
+    <div class="body-overlay"></div>
     <!-- slide-bar end -->
-    
+
     <main>
         <!--page-title-area start-->
         <section class="page-title-area" style="background-image: url(assets/img/bg/page-title-bg-01.jpg);">
@@ -50,144 +154,158 @@
         </section>
         <!--page-title-area end-->
 
-       <!-- events-area-start -->
-       <section class="events-area-03 pt-130 pb-100">
-           <div class="container">
-               <div class="row">
-                   <div class="col-xl-12">
-                       <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
-                           <div class="events-thumb"><img src="assets/img/events/04.jpg" alt=""></div>
-                           <div class="events-contents pos-rel">
+        <!-- events-area-start -->
+        <section class="events-area-03 pt-130 pb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
+                            <div class="events-thumb"><img src="assets/img/events/04.jpg" alt=""></div>
+                            <div class="events-contents pos-rel">
                                 <div class="tags"><a href="#">$20</a></div>
-                               <h3><a href="#">Annual Conference 2020</a></h3>
+                                <h3><a href="#">Annual Conference 2020</a></h3>
                                 <div class="events-meta">
                                     <span><i class="far fa-calendar-alt"></i> <a href="#">25 Nov 2020</a></span>
-                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09 pm</a></span>
-                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street, USA</a></span>
+                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09
+                                            pm</a></span>
+                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street,
+                                            USA</a></span>
                                     <span><i class="fal fa-home"></i> <a href="#">New York Museum</a></span>
                                 </div>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa
                                     ntium doloremque laudantium totam rem aperiam eaque</p>
                                 <a class="c-btn btn-blue-style mt-15" href="events-details.html">join event <i
                                         class="far fa-long-arrow-alt-right"></i></a>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-xl-12">
-                       <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
-                           <div class="events-thumb"><img src="assets/img/events/05.jpg" alt=""></div>
-                           <div class="events-contents pos-rel">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
+                            <div class="events-thumb"><img src="assets/img/events/05.jpg" alt=""></div>
+                            <div class="events-contents pos-rel">
                                 <div class="tags"><a href="#">$42</a></div>
-                               <h3><a href="events-details.html">Special Meetup Day</a></h3>
+                                <h3><a href="events-details.html">Special Meetup Day</a></h3>
                                 <div class="events-meta">
                                     <span><i class="far fa-calendar-alt"></i> <a href="#">25 Nov 2020</a></span>
-                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09 pm</a></span>
-                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street, USA</a></span>
+                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09
+                                            pm</a></span>
+                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street,
+                                            USA</a></span>
                                     <span><i class="fal fa-home"></i> <a href="#">New York Museum</a></span>
                                 </div>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa
                                     ntium doloremque laudantium totam rem aperiam eaque</p>
                                 <a class="c-btn btn-blue-style mt-15" href="events-details.html">join event <i
                                         class="far fa-long-arrow-alt-right"></i></a>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-xl-12">
-                       <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
-                           <div class="events-thumb"><img src="assets/img/events/06.jpg" alt=""></div>
-                           <div class="events-contents pos-rel">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
+                            <div class="events-thumb"><img src="assets/img/events/06.jpg" alt=""></div>
+                            <div class="events-contents pos-rel">
                                 <div class="tags"><a href="#">$42</a></div>
-                               <h3><a href="team-details.html">Web Design Meetup Day</a></h3>
+                                <h3><a href="team-details.html">Web Design Meetup Day</a></h3>
                                 <div class="events-meta">
                                     <span><i class="far fa-calendar-alt"></i> <a href="#">25 Nov 2020</a></span>
-                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09 pm</a></span>
-                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street, USA</a></span>
+                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09
+                                            pm</a></span>
+                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street,
+                                            USA</a></span>
                                     <span><i class="fal fa-home"></i> <a href="#">New York Museum</a></span>
                                 </div>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa
                                     ntium doloremque laudantium totam rem aperiam eaque</p>
                                 <a class="c-btn btn-blue-style mt-15" href="events-details.html">join event <i
                                         class="far fa-long-arrow-alt-right"></i></a>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-xl-12">
-                       <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
-                           <div class="events-thumb"><img src="assets/img/events/07.jpg" alt=""></div>
-                           <div class="events-contents pos-rel">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
+                            <div class="events-thumb"><img src="assets/img/events/07.jpg" alt=""></div>
+                            <div class="events-contents pos-rel">
                                 <div class="tags"><a href="#">$42</a></div>
-                               <h3><a href="events-details.html">Web Design Meetup Day</a></h3>
+                                <h3><a href="events-details.html">Web Design Meetup Day</a></h3>
                                 <div class="events-meta">
                                     <span><i class="far fa-calendar-alt"></i> <a href="#">25 Nov 2020</a></span>
-                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09 pm</a></span>
-                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street, USA</a></span>
+                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09
+                                            pm</a></span>
+                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street,
+                                            USA</a></span>
                                     <span><i class="fal fa-home"></i> <a href="#">New York Museum</a></span>
                                 </div>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa
                                     ntium doloremque laudantium totam rem aperiam eaque</p>
                                 <a class="c-btn btn-blue-style mt-15" href="events-details.html">join event <i
                                         class="far fa-long-arrow-alt-right"></i></a>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-xl-12">
-                       <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
-                           <div class="events-thumb"><img src="assets/img/events/08.jpg" alt=""></div>
-                           <div class="events-contents pos-rel">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
+                            <div class="events-thumb"><img src="assets/img/events/08.jpg" alt=""></div>
+                            <div class="events-contents pos-rel">
                                 <div class="tags"><a href="#">$20</a></div>
-                               <h3><a href="events-details.html">Web Design Meetup Day</a></h3>
+                                <h3><a href="events-details.html">Web Design Meetup Day</a></h3>
                                 <div class="events-meta">
                                     <span><i class="far fa-calendar-alt"></i> <a href="#">25 Nov 2020</a></span>
-                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09 pm</a></span>
-                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street, USA</a></span>
+                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09
+                                            pm</a></span>
+                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street,
+                                            USA</a></span>
                                     <span><i class="fal fa-home"></i> <a href="#">New York Museum</a></span>
                                 </div>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa
                                     ntium doloremque laudantium totam rem aperiam eaque</p>
                                 <a class="c-btn btn-blue-style mt-15" href="events-details.html">join event <i
                                         class="far fa-long-arrow-alt-right"></i></a>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-xl-12">
-                       <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
-                           <div class="events-thumb"><img src="assets/img/events/09.jpg" alt=""></div>
-                           <div class="events-contents pos-rel">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="events-wrapper-03 d-lg-flex align-items-center justify-content-between mb-30">
+                            <div class="events-thumb"><img src="assets/img/events/09.jpg" alt=""></div>
+                            <div class="events-contents pos-rel">
                                 <div class="tags"><a href="#">$42</a></div>
-                               <h3><a href="events-details.html">Book Fair Programs</a></h3>
+                                <h3><a href="events-details.html">Book Fair Programs</a></h3>
                                 <div class="events-meta">
                                     <span><i class="far fa-calendar-alt"></i> <a href="#">25 Nov 2020</a></span>
-                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09 pm</a></span>
-                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street, USA</a></span>
+                                    <span><i class="fal fa-clock"></i> <a href="#">Sat - Friday, 08 am - 09
+                                            pm</a></span>
+                                    <span><i class="far fa-map-marker-alt"></i> <a href="#">250 Main Street,
+                                            USA</a></span>
                                     <span><i class="fal fa-home"></i> <a href="#">New York Museum</a></span>
                                 </div>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa
                                     ntium doloremque laudantium totam rem aperiam eaque</p>
                                 <a class="c-btn btn-blue-style mt-15" href="events-details.html">join event <i
                                         class="far fa-long-arrow-alt-right"></i></a>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-               <div class="row">
-                   <div class="col-xl-12">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
                         <nav aria-label="Page navigation">
                             <ul class="pagination justify-content-center mt-30 mb-30">
-                                <li class="page-item"><a class="page-link" href="#"><i class="far fa-chevron-left"></i></a></li>
+                                <li class="page-item"><a class="page-link" href="#"><i
+                                            class="far fa-chevron-left"></i></a></li>
                                 <li class="page-item"><a class="page-link" href="#">1</a></li>
                                 <li class="page-item"><a class="page-link" href="#">2</a></li>
                                 <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#"><i class="far fa-chevron-right"></i></a></li>
+                                <li class="page-item"><a class="page-link" href="#"><i
+                                            class="far fa-chevron-right"></i></a></li>
                             </ul>
                         </nav>
-                   </div>
-               </div>
-           </div>
-       </section>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- events-area-end -->
 
-         <!-- brand-area-start -->
-         <div class="brand-area theme-bg pb-65 pt-65">
+        <!-- brand-area-start -->
+        <div class="brand-area theme-bg pb-65 pt-65">
             <div class="container">
                 <div class="row brand-active">
                     <div class="col-xl-2 text-center">
@@ -225,7 +343,7 @@
         </div>
         <!-- brand-area-end -->
         <!-- footer-area-start -->
-		<?php require_once("inc/footer.php");?>
+        <?php require_once("inc/footer.php");?>
         <!-- footer-area-end -->
     </main>
     <!-- JS here -->
@@ -250,4 +368,5 @@
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>

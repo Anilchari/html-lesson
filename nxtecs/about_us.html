@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -21,14 +22,117 @@
     <link rel="stylesheet" href="assets/css/meanmenu.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/main.css">
-	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 </head>
+
 <body>
     <!-- header-start -->
-	<?php require_once("inc/header.php");?>
+    <header class="header-transparent">
+        <div id="sticky-header" class="main-menu-area menu-padding pl-55 pr-55">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-7 col-md-6 col-8">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo.png" style="width:170px;" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 d-none d-xl-block">
+                        <div class="main-menu text-left ml-15">
+                            <nav id="mobile-menu">
+                                <ul>
+
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="about_us.html">About Us</a></li>
+                                    <!--<li><a href="course.html">AEM</a></li>-->
+
+                                    <li><a href="#">Skills <i class="far fa-angle-down"></i></a>
+                                        <ul class="sub-menu text-left">
+                                            <li><a href="skills.html">Devops</a></li>
+                                            <li><a href="#">AE</a></li>
+                                            <li><a href="#">Cyber Security</a></li>
+                                            <li><a href="#">Python</a></li>
+                                            <li><a href="#">Data Analytics</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li><a href="#">Events <i class="far fa-angle-down"></i></a>
+                                            <ul class="sub-menu text-left">
+                                                <li><a href="events.html">Events</a>
+                                                <li><a href="events-details.html">Events Details</a>
+                                            </ul>
+                                        </li>-->
+
+                                    <li><a href="contact_us.html">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-5 col-md-6 col-4">
+                        <div class="header-right d-sm-flex align-items-center justify-content-end">
+                            <div class="header-icon d-none d-md-inline-block">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                            <!--<div class="header-sing d-none d-md-inline-block">
+                                    <a href="contact.html"> <i class="far fa-user-circle"></i>sing in</a>
+                                </div>-->
+                            <div class="hamburger-menu menu-bar info-bar">
+                                <a href="#"><img src="assets/img/icon/bar.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <!-- header-start -->
     <!-- slide-bar start -->
-	<?php require_once("inc/side_bar.php");?>
+    <aside class="slide-bar">
+        <div class="close-mobile-menu">
+            <a href="javascript:void(0);"><i class="fas fa-times"></i></a>
+        </div>
+
+        <!-- offset-sidebar start -->
+        <div class="offset-sidebar">
+            <div class="offset-widget offset-logo mb-30">
+                <a href="index.php">
+                    <img src="assets/img/side_bar_logo.png" style="width:200px;" alt="logo">
+                </a>
+            </div>
+            <div class="offset-widget mb-40">
+                <div class="info-widget">
+                    <h4 class="offset-title mb-20">About Us</h4>
+                    <p class="mb-30">
+                        We simplify your career upgrade just like AEM simplifies the management of a website’s content.
+                    </p>
+                    <a class="c-btn btn-round-02" href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="offset-widget mb-30 pr-10">
+                <div class="info-widget info-widget2">
+                    <h4 class="offset-title mb-20">Contact Info</h4>
+                    <p> <i class="fal fa-address-book"></i> Bangalore, Karnataka,India.</p>
+                    <p> <i class="fal fa-phone"></i> +91 7975935848, +91 7204025956</p>
+                    <p> <i class="fal fa-envelope-open"></i> info@nxtecs.com </p>
+                </div>
+            </div>
+        </div>
+        <!-- offset-sidebar end -->
+
+        <!-- side-mobile-menu start -->
+        <nav class="side-mobile-menu">
+            <ul id="mobile-menu-active">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- side-mobile-menu end -->
+    </aside>
+    <div class="body-overlay"></div>
     <!-- slide-bar end -->
     <main>
         <!--page-title-area start-->
@@ -77,7 +181,8 @@
                             <div class="section-title text-left mb-60">
                                 <span><i class="fal fa-ellipsis-h"></i> Introduced About Nxtecs</span>
                                 <h2>Welcome To Nxtecs</h2>
-                                <p class="left-line pos-rel pl-30">AEM not only simplifies the management of a website’s content but also simplifies your career path.</p>
+                                <p class="left-line pos-rel pl-30">AEM not only simplifies the management of a website’s
+                                    content but also simplifies your career path.</p>
                             </div>
                             <div class="about-inner-text">
                                 <ul class="inner-content-list">
@@ -88,7 +193,9 @@
                                             </div>
                                             <div class="inner-content-text">
                                                 <h6>Placement Assistance</h6>
-                                                <p> In addition to backing academic knowledge with practical experience, we conduct rigorous training & placement sessions including job fairs, to keep them interview & job ready!</p>
+                                                <p> In addition to backing academic knowledge with practical experience,
+                                                    we conduct rigorous training & placement sessions including job
+                                                    fairs, to keep them interview & job ready!</p>
                                             </div>
                                         </div>
                                     </li>
@@ -99,13 +206,16 @@
                                             </div>
                                             <div class="inner-content-text">
                                                 <h6>Professional & Expert</h6>
-                                                <p> It is not always about how much knowledge we have, it is about how we use it. So let's join together to make this just more than theoretical experience. Let’s spread the word of conception knowledge!</p>
+                                                <p> It is not always about how much knowledge we have, it is about how
+                                                    we use it. So let's join together to make this just more than
+                                                    theoretical experience. Let’s spread the word of conception
+                                                    knowledge!</p>
                                             </div>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
-                          
+
                         </div>
                     </div>
                 </div>
@@ -124,7 +234,7 @@
                                 </div>
                                 <div class="counter-text">
                                     <!--<h1><span class="counter">3045</span>+</h1>-->
-									
+
                                     <span style="line-height: 2.5;">24/7 support </span>
                                 </div>
                             </div>
@@ -241,7 +351,7 @@
                         <div class="team-wrapper mb-30 img-thumbnail">
                             <div class="team-img pos-rel">
                                 <div class="fix">
-                                    <img src="assets/img/team/team_1.png"  alt="">
+                                    <img src="assets/img/team/team_1.png" alt="">
                                 </div>
                                 <div class="team-02-icon">
                                     <div class="inner-team-icon pos-rel">
@@ -256,7 +366,7 @@
                             </div>
                             <div class="team-text">
                                 <h4 class="text_align"><a href="">Subrat Kumar Sen</a></h4>
-                              
+
                             </div>
                         </div>
                     </div>
@@ -264,7 +374,7 @@
                         <div class="team-wrapper mb-30 img-thumbnail">
                             <div class="team-img pos-rel">
                                 <div class="fix">
-                                    <img src="assets/img/team/t2.jpg"  alt="">
+                                    <img src="assets/img/team/t2.jpg" alt="">
                                 </div>
                                 <div class="team-02-icon">
                                     <div class="inner-team-icon pos-rel">
@@ -279,7 +389,7 @@
                             </div>
                             <div class="team-text">
                                 <h4 class="text_align"><a href="">Basavana</a></h4>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -287,7 +397,7 @@
                         <div class="team-wrapper mb-30 img-thumbnail">
                             <div class="team-img pos-rel">
                                 <div class="fix">
-                                    <img src="assets/img/team/t3.png"  alt="">
+                                    <img src="assets/img/team/t3.png" alt="">
                                 </div>
                                 <div class="team-02-icon">
                                     <div class="inner-team-icon pos-rel">
@@ -302,11 +412,11 @@
                             </div>
                             <div class="team-text">
                                 <h4 class="text_align"><a href="">Chaithra V</a></h4>
-                                
+
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -330,9 +440,13 @@
                             <div class="testimonial-wrapper mb-30">
                                 <div class="testimonial-text">
                                     <span style="font-size:16px;">
-									Nxtech's AEM course helped me launch my career as a developer. We learned from experts, who were greatly dedicated to our placement. We were guided right from the beginning - from how to create an impressive resume, to how to handle the pressure of job interviews. Their industry tie-ups helped me secure my first job!
-									</span>
-                                    
+                                        Nxtech's AEM course helped me launch my career as a developer. We learned from
+                                        experts, who were greatly dedicated to our placement. We were guided right from
+                                        the beginning - from how to create an impressive resume, to how to handle the
+                                        pressure of job interviews. Their industry tie-ups helped me secure my first
+                                        job!
+                                    </span>
+
                                     <div class="clientsay-name">
                                         <div class="client-say-img">
                                             <img src="assets/img/team/team_2.jpg" style="height:70px" alt="">
@@ -347,12 +461,16 @@
                             <div class="testimonial-wrapper mb-30">
                                 <div class="testimonial-text">
                                     <span style="font-size:16px;">
-										My journey went quite smoothly, we used to have 3 hours of lectures which used to be really interactive and helped to clear the concepts. The weekly webinars conducted during the learning period were really helpful. And from the start till the end, the entire process of registering to get through my placements was well taken care of by Nxtech.
-									</span>
-                                    
+                                        My journey went quite smoothly, we used to have 3 hours of lectures which used
+                                        to be really interactive and helped to clear the concepts. The weekly webinars
+                                        conducted during the learning period were really helpful. And from the start
+                                        till the end, the entire process of registering to get through my placements was
+                                        well taken care of by Nxtech.
+                                    </span>
+
                                     <div class="clientsay-name">
                                         <div class="client-say-img">
-                                             <img src="assets/img/team/team_1.jpg" style="height:70px" alt="">
+                                            <img src="assets/img/team/team_1.jpg" style="height:70px" alt="">
                                         </div>
                                         <div class="client-say-content">
                                             <h4>Varshan Prabhu</h4>
@@ -361,7 +479,7 @@
                                     </div>
                                 </div>
                             </div>
-                      
+
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
@@ -396,10 +514,11 @@
                                 <div class="blog-meta">
                                     <span><i class="far fa-calendar-alt"></i> <a href="">17 Sep
                                             2022</a></span>
-                                  
+
                                 </div>
-                                <h4><a href="">A Brand Experience Success Story: Building a New Digital Experience</a></h4>
-                               
+                                <h4><a href="">A Brand Experience Success Story: Building a New Digital Experience</a>
+                                </h4>
+
                                 <div class="blog-button">
                                     <a href=""><i class="far fa-long-arrow-right"></i></a>
                                 </div>
@@ -415,10 +534,10 @@
                                 <div class="blog-meta">
                                     <span><i class="far fa-calendar-alt"></i> <a href="">17 Sep
                                             2022</a></span>
-                                   
+
                                 </div>
                                 <h4><a href="">Ready, Get Set, Go! on AEM…<br><br></a></h4>
-                              
+
                                 <div class="blog-button">
                                     <a href=""><i class="far fa-long-arrow-right"></i></a>
                                 </div>
@@ -434,10 +553,10 @@
                                 <div class="blog-meta">
                                     <span><i class="far fa-calendar-alt"></i> <a href="">17 Sep
                                             2020</a></span>
-                                  
+
                                 </div>
                                 <h4><a href="">Content management meets AI with Adobe Experience Manager Sites.</a></h4>
-                              
+
                                 <div class="blog-button">
                                     <a href=""><i class="far fa-long-arrow-right"></i></a>
                                 </div>
@@ -488,7 +607,7 @@
         </div>-->
         <!-- brand-area-end -->
         <!-- footer-area-start -->
-		<?php require_once("inc/footer.php");?>
+        <?php require_once("inc/footer.php");?>
         <!-- footer-area-end -->
     </main>
     <!-- JS here -->
@@ -513,4 +632,5 @@
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
