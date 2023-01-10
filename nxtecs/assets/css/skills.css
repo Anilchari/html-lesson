@@ -46,7 +46,7 @@
   
   .team .member .social a:hover {
     color: #151515;
-    background: #ffc451;
+    background: #ea5822;
   }
   
   .team .member .social i {
@@ -84,3 +84,11 @@
     bottom: 15px;
   }
   
+  .team .member .member-info button {
+background-color: #ea5822;
+color: white;
+width: 40%;
+cursor: pointer;
+
+
+}
