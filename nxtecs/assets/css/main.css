@@ -2269,13 +2269,13 @@ label {
 }
 .page-title h1 {
   color: white;
-  font-size: 110px;
+  font-size: 90px;
   letter-spacing: -0.3px;
   margin-bottom: 15px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .page-title h1 {
-    font-size: 80px;
+    font-size: 70px;
   }
 }
 @media (max-width: 767px) {
