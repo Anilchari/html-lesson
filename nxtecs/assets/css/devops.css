@@ -13,13 +13,13 @@
     align-items: center;
     color: #ea5822;
 }
-.section-title {
+.section-title1 {
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
-.section-title hr {
+.section-title1 hr {
 border-top: 2px dotted #ea5852;
 width: 100px;
 }
