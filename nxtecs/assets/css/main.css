@@ -45,7 +45,7 @@ body {
   font-family: "hind";
   font-weight: normal;
   font-style: normal;
-  color: #708389;
+  color: #0a0a23;
 }
 
 .f-left {
@@ -162,7 +162,7 @@ p {
   font-size: 15px;
   font-weight: normal;
   line-height: 28px;
-  color: #708389;
+  color: #0a0a23;
   margin-bottom: 15px;
 }
 
@@ -7472,7 +7472,7 @@ label {
 
 
 .link {
-  color: #6b6b72;
+  color: #0a0a23;
   transition: all 0.4s;
 }
 
@@ -7521,6 +7521,14 @@ color: white;
 margin-top: 40px;
 border-top-right-radius: 5px;
 border-bottom-right-radius: 5px;
+}
 
-
+.footer-top {
+  background-image: url(./../img/bg/shapelined-_JBKdviweXI-unsplash\ \(1\)\ \(1\).jpg);
+}
+.container1 {
+  background-image: url(./../img/bg/copyright.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
