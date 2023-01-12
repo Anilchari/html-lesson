@@ -7524,10 +7524,10 @@ border-bottom-right-radius: 5px;
 }
 
 .footer-top {
-  background-image: url(./../img/bg/henry-co--odUkx8C2gg-unsplash\ \(1\).jpg);
+  background-color: #eaf4f7;
 }
 .container1 {
-  background-image: url(./../img/bg/copyright-3.jpg);
+  background-color: #eaf4f7;
   display: flex;
   align-items: center;
   justify-content: center;
