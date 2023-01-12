@@ -7527,8 +7527,9 @@ border-bottom-right-radius: 5px;
   background-image: url(./../img/bg/henry-co--odUkx8C2gg-unsplash\ \(1\).jpg);
 }
 .container1 {
-  background-image: url(./../img/bg/copyright-2.jpg);
+  background-image: url(./../img/bg/copyright-3.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100px;
 }
