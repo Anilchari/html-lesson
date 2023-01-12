@@ -7468,3 +7468,59 @@ label {
 .copyright-area-02 {
   background: #1a245d;
 }
+
+
+
+.link {
+  color: #6b6b72;
+  transition: all 0.4s;
+}
+
+.link:hover {
+  color: #ea5822;
+  padding-left: 10px;
+  transition: all 0.4s;
+  cursor: pointer; 
+}
+
+.link1 {
+  color: #6b6b72;
+  transition: all 0.4s;
+  border-radius: 5px;
+  border: none;
+}
+
+.link1:hover {
+  color: white;
+  padding-left: 10px;
+  transition: all 0.4s;
+  cursor: pointer;
+  background-color: #ea5822;
+  border-radius: 5px; 
+}
+
+.footer input {
+  height: 45px;
+  width: 70%;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.footer button {
+height: 45px ;
+width: 20%;
+border: none;
+outline: none;
+padding-left: -12px;
+border-top: #ff2962; 
+background: #ff2962;
+color: white;
+margin-top: 40px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+
+
+}
