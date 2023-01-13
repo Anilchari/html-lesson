@@ -7256,9 +7256,7 @@ label {
   width: 100%;
 }
 
-.footer-social-icon {
-  border-bottom: 1px solid #1d303f;
-}
+
 @media (max-width: 767px) {
   .footer-social-icon {
     border-bottom: none;
