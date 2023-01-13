@@ -167,7 +167,7 @@ p {
 }
 
 hr {
-  border-bottom: 1px solid #eceff8;
+  
   border-top: 0 none;
   margin: 30px 0;
   padding: 0;
@@ -7273,6 +7273,7 @@ label {
   padding-left: 20px;
   position: relative;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .footer-social-icon a {
     padding-left: 40px;
