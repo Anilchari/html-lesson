@@ -7270,10 +7270,9 @@ label {
   }
 }
 .footer-social-icon a {
-  color: white;
   font-size: 16px;
-  font-weight: 500;
-  padding-left: 85px;
+  font-weight: 600;
+  padding-left: 20px;
   position: relative;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -7303,9 +7302,7 @@ label {
   }
 }
 .footer-social-icon a::before {
-  position: absolute;
-  content: "";
-  background-color: #ea5822;
+  
   height: 2px;
   width: 0;
   left: 0;
@@ -7331,7 +7328,7 @@ label {
   border-radius: 50%;
   text-align: center;
   line-height: 30px;
-  margin-right: 10px;
+  
 }
 .footer-social-icon a:hover::before {
   width: 100%;
@@ -7369,8 +7366,8 @@ label {
   color: white;
   border: 0;
   height: 54px;
-  width: 66px;
-  line-height: 20px;
+  
+  line-height: 0px;
   font-size: 25px;
   cursor: pointer;
 }
@@ -7403,7 +7400,7 @@ label {
   font-weight: 400;
   font-family: "hind";
   display: inline-block;
-  margin-bottom: 12px;
+
   position: relative;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
