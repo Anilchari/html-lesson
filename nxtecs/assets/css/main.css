@@ -2362,6 +2362,13 @@ label {
     width: 42px;
   }
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  footer-social-icon a {
+    width: 42px;
+  }
+}
+
 .header-icon a:last-child {
   margin-right: 0;
 }
