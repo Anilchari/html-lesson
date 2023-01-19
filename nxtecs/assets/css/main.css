@@ -6248,10 +6248,12 @@ label {
   padding-bottom: 15px;
   margin-bottom: 40px;
 }
-.inner-content-list li {
-  border-bottom: 1px solid #ebebeb;
+.inner-content-list li {  
   padding-bottom: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+.inner-content-list h6 {  
+  padding-top: 20px;
 }
 
 .inner-content .inner-content-icon {
@@ -6259,6 +6261,17 @@ label {
 }
 
 .inner-content .inner-content-icon i {
+  color: white;
+  font-size: 20px;
+  line-height: 55px;
+  background: #3662ff;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  text-align: center;
+} 
+.inner-content .inner-content-icon1 i {
   color: white;
   font-size: 20px;
   line-height: 55px;
