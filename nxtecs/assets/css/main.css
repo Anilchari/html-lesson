@@ -2614,7 +2614,7 @@ label {
   left: 0;
   opacity: 0;
   position: absolute;
-  top: 60%;
+  top: 65%;
   transition: all 0.3s ease 0s;
   visibility: hidden;
   width: 220px;
@@ -2626,7 +2626,7 @@ label {
 
 .main-menu nav>ul>li:hover .sub-menu {
   opacity: 1;
-  top: 80%;
+  top: 75%;
   visibility: visible;
 }
 
