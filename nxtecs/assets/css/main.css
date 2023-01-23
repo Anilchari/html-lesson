@@ -8231,10 +8231,11 @@ label {
 }
 
 .link1 {
-  color: #6b6b72;
+  color: white;
   transition: all 0.4s;
   border-radius: 5px;
   border: none;
+  background-color: #ea5822;
 }
 
 .link1:hover {
@@ -8242,7 +8243,7 @@ label {
   padding-left: 10px;
   transition: all 0.4s;
   cursor: pointer;
-  background-color: #ea5822;
+  background-color: #ec1f1f;
   border-radius: 5px;
 }
 
