@@ -8291,4 +8291,7 @@ label {
 
 }
 
-
+.block:hover {
+background-color: #ea5822;
+cursor: pointer;
+}
