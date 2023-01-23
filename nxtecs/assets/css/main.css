@@ -7684,13 +7684,13 @@ label {
 .contact-form .input-text .form-control {
   background: white;
   border-radius: 0;
-  border: none;
+  border: 1px solid;
 }
 
 .contact-form .input-text textarea {
   background: white;
   border-radius: 0;
-  border: none;
+  border: 1px solid;
   height: 180px;
 }
 
