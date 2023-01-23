@@ -5728,7 +5728,7 @@ label {
   transition: 0.3s;
   position: absolute;
   text-align: center;
-  line-height: 39px;
+  
   border-radius: 0;
   color: #062a35;
   font-size: 16px;
@@ -8272,6 +8272,7 @@ label {
 }
 
 .footer-top {
+
   background-color: #eaf4f7;
 }
 
