@@ -5534,14 +5534,14 @@ label {
 
 .btn-round-02 {
   color: white;
-  background: #002356;
+  background: #4688eb;
   border: transparent;
   display: inline-block;
   border-radius: 30px;
 }
 
 .btn-round-02:hover {
-  background: #4688eb;
+  background: #66a3ff;
 }
 
 .btn-blue-style {
@@ -6162,7 +6162,7 @@ label {
 }
 
 .about-tag .about-tag-inner {
-  background: #ea5822;
+  background: #ffa812;
   width: 177px;
   height: 177px;
   display: inline-block;
@@ -6191,7 +6191,7 @@ label {
 
 .left-line::before {
   content: '';
-  background-color: #ea5822;
+  background-color: #4688eb;
   position: absolute;
   left: 0;
   top: 8px;
