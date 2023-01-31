@@ -49,22 +49,22 @@ width: 100px;
 
 .team .member .social a {
     transition: color 0.5s;
-    color: #151515;
+    color: #ffd112;
     margin: 0 3px;
     border-radius: 4px;
     width: 36px;
     height: 36px;
-    background: rgba(249, 159, 40, 0.8);
+    background: #002356;
     transition: ease-in-out 0.3s;
-    color: #484848;
+    
     display: inline-flex;
     justify-content: center;
     align-items: center;
 }
 
 .team .member .social a:hover {
-    color: #151515;
-    background: #ea5822;
+    color: #ffd112;
+    background: #4688eb;
 }
 
 .team .member .social i {
@@ -103,9 +103,10 @@ width: 100px;
 }
 
 .team .member .member-info button {
-    background-color: rgba(249, 159, 40, 0.8);
+    background-color: #002356;
     color: white;
     width: 49.4%;
+    height: 50px;
     cursor: pointer;
     border: none;
   
@@ -113,7 +114,7 @@ width: 100px;
 
 }
 .team .member .member-info button:hover {
-    background-color: #ea5822;
+    background-color: #4688eb;
     transition: ease-in-out 0.5s;
     
 }
