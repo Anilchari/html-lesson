@@ -1122,7 +1122,7 @@ label {
 }
 
 .pt-130 {
-  padding-top: 60px;
+  padding-top: 130px;
 }
 
 .pt-135 {
@@ -4150,7 +4150,7 @@ label {
 
 /* 6. heading */
 .section-title span {
-  color: #ea5822;
+  color: #4688EB;
   font-size: 18px;
   font-weight: 600;
 }
@@ -4337,7 +4337,7 @@ label {
   text-align: center;
   display: inline-block;
   transition: .3s;
-  background: #ea5822;
+  background: #4688EB;
 }
 
 .gallery-wrapper:hover .gallery-icon {
@@ -4365,7 +4365,7 @@ label {
 }
 
 .gallery-text h3 a:hover {
-  color: #ea5822;
+  color: #FFA812;
 }
 
 .gallery-text span {
@@ -6264,7 +6264,7 @@ label {
   color: white;
   font-size: 20px;
   line-height: 55px;
-  background: #3662ff;
+  background: #002356;
   display: inline-block;
   width: 55px;
   height: 55px;
