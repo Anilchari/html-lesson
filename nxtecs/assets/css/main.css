@@ -262,7 +262,7 @@ label {
 }
 
 .theme-bg {
-  background: #ea5822;
+  background: #002356;
 }
 
 .theme-bg2 {
@@ -2966,7 +2966,7 @@ label {
 }
 
 .support .support-icon i {
-  color: #4688eb;
+  color: #ffa812;
   font-size: 38px;
   margin-right: 18px;
 }
@@ -3407,7 +3407,7 @@ label {
   font-size: 13px;
   line-height: 22px;
   font-weight: 700;
-  background: #ea5822;
+  background: #4688eb;
   display: inline-block;
   padding: 6px 14px;
   border-radius: 30px;
@@ -3422,7 +3422,7 @@ label {
   font-size: 13px;
   font-weight: 700;
   font-family: "roboto";
-  background: #4582ff;
+  background: #002356;
   display: inline-block;
   padding: 6px 15px;
   border-radius: 30px;
@@ -3435,7 +3435,7 @@ label {
 }
 
 .course-text .course-cat-meta .review-icon a i {
-  color: #ea5822;
+  color: #ffa812;
   font-size: 12px;
 }
 
@@ -3471,7 +3471,7 @@ label {
 }
 
 .course-text .course-meta span i {
-  color: #ea5822;
+  color: #ffa812;
 }
 
 .course-wrapper {
@@ -3577,7 +3577,7 @@ label {
 .course-text-02 .course-cat-meta span a {
   text-transform: uppercase;
   background: white;
-  color: #ea5822;
+  color: #002356;
   letter-spacing: normal;
 }
 
@@ -3605,7 +3605,7 @@ label {
 }
 
 .course-text-02 a.c-btn {
-  color: #ea5822;
+  color: #002356;
   background: white;
   border-color: white;
   padding: 13px 22px;
@@ -3629,7 +3629,7 @@ label {
 }
 
 .course-text-02 .course-meta span i {
-  color: white;
+  color: #ffa812;
 }
 
 .course-text-02 .course-meta span a {
@@ -3643,7 +3643,7 @@ label {
 .course-text-02 .course__instructor--price-tag span {
   text-transform: uppercase;
   background: white;
-  color: #ea5822;
+  color: #002356;
   letter-spacing: normal;
 }
 
@@ -3925,11 +3925,11 @@ label {
 }
 
 .course-inner-02 .course-text .course-cat-meta span .violet {
-  background-color: #7b1fff;
+  background-color: #002356;
 }
 
 .course-inner-02 .course-text .course-cat-meta span .orange {
-  background-color: #ea5822;
+  background-color: #002356;
 }
 
 .course-wrapper-03 {
@@ -5534,14 +5534,14 @@ label {
 
 .btn-round-02 {
   color: white;
-  background: #ea5822;
+  background: #002356;
   border: transparent;
   display: inline-block;
   border-radius: 30px;
 }
 
 .btn-round-02:hover {
-  background: #3662ff;
+  background: #4688eb;
 }
 
 .btn-blue-style {
@@ -7494,14 +7494,14 @@ label {
 }
 
 .subscribe .lg-btn a.c-btn {
-  background: #ea5822;
+  background: #002356;
   color: white;
   padding: 23px 70px;
   border: 0;
 }
 
 .subscribe .lg-btn a.c-btn:hover {
-  background: #3662ff;
+  background: #4688eb;
 }
 
 .contact-post-form {
@@ -7533,7 +7533,7 @@ label {
   font-size: 16px;
   text-align: center;
   right: 30px;
-  color: #ea5822;
+  color: #ffa812;
   top: 18px;
 }
 
@@ -7651,7 +7651,7 @@ label {
   font-size: 22px;
   line-height: 50px;
   text-align: center;
-  background: #ea5822;
+  background: #002356;
   width: 50px;
   height: 50px;
   border-radius: 50%;
