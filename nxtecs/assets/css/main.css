@@ -3191,7 +3191,7 @@ label {
 }
 
 .counter-icon i {
-  color: #4688eb;
+  color: #ffa812;
   font-size: 40px;
   position: relative;
   top: 2px;
@@ -5740,8 +5740,8 @@ label {
 }
 
 .testimonial-active button.slick-arrow:hover {
-  background: #ea5822;
-  color: white;
+ background: #002356;
+  color: #ffd112;
 }
 
 .testimonial-active button.slick-next {
@@ -6426,7 +6426,7 @@ label {
 
 .blog-meta span i {
   margin-right: 5px;
-  color: #ea5822;
+  color: #ffa812;
 }
 
 .blog-text {
@@ -6466,7 +6466,7 @@ label {
 }
 
 .blog-text h4>a:hover {
-  color: #ea5822;
+  color: #002356;
 }
 
 .inner-blog {
@@ -8283,6 +8283,7 @@ padding-top: 20px;
   align-items: center;
   justify-content: center;
   height: 50px;
+  padding-top: 30px
 }
 
 .inner-content1 {
