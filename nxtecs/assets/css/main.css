@@ -266,7 +266,7 @@ label {
 }
 
 .theme-bg2 {
-  background: #3662ff;
+  background: #66a3ff;
 }
 
 .blue-dark-bg {
@@ -4868,7 +4868,7 @@ label {
 
 .events-meta span i {
   margin-right: 4px;
-  color: #ea5822;
+  color: #ffa812;
 }
 
 .events-text {
@@ -5163,7 +5163,7 @@ label {
   line-height: 70px;
   display: inline-block;
   text-align: center;
-  background: #ea5822;
+  background: #ffa812;
   color: white;
   border-radius: 50%;
   font-size: 24px;
@@ -5534,20 +5534,20 @@ label {
 
 .btn-round-02 {
   color: white;
-  background: #4688eb;
+  background: #002356;
   border: transparent;
   display: inline-block;
   border-radius: 30px;
 }
 
 .btn-round-02:hover {
-  background: #66a3ff;
+  background: #4688eb;
 }
 
 .btn-blue-style {
   color: white;
   border-radius: 40px;
-  background: #3662ff !important;
+  background: #002356 !important;
   display: inline-block;
   padding: 21px 40px;
   line-height: 1;
@@ -5555,7 +5555,7 @@ label {
 }
 
 .btn-blue-style:hover {
-  background-color: #ea5822 !important;
+  background-color: #4688eb !important;
   border: transparent;
 }
 
@@ -6512,7 +6512,7 @@ label {
   border-radius: 5px;
   display: inline-block;
   text-transform: uppercase;
-  background: #ea5822;
+  background: #002356;
   font-size: 14px;
   font-family: "roboto";
   font-weight: 700;
@@ -6588,7 +6588,7 @@ label {
 }
 
 .blogs .lg-button a.c-btn {
-  background: #ea5822;
+  background: #002356;
   color: white;
   border-color: transparent;
   padding: 20px 40px;
@@ -6681,7 +6681,7 @@ label {
 .widget-search .slider-search-form button {
   top: 0;
   right: 40px;
-  color: #ea5822;
+  color: #ffa812;
   background: transparent;
   width: 0;
   height: 0;
@@ -6719,7 +6719,7 @@ label {
 }
 
 .cat-list li:hover {
-  background: #ea5822;
+  background: #66a3ff;
 }
 
 .cat-list li:hover a {
@@ -6820,13 +6820,13 @@ label {
 }
 
 .post .post-content span i {
-  color: #ea5822;
+  color: #ffa812;
   font-size: 14px;
   margin-right: 5px;
 }
 
 .post:hover .post-content h6 {
-  color: #ea5822;
+  color: #002356;
 }
 
 .instafeed {
@@ -6849,7 +6849,7 @@ label {
 .instafeed li a::before {
   content: '';
   position: absolute;
-  background: #ea5822;
+  background: #ffa812;
   opacity: 0;
   left: 0;
   right: 0;
@@ -6923,7 +6923,7 @@ label {
 
 .cat-tag a:hover {
   color: white;
-  background: #ea5822;
+  background: #66a3ff;
 }
 
 .widget-add img {
