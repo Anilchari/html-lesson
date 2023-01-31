@@ -1952,7 +1952,7 @@ label {
 
 /* scrollUp */
 #scrollUp {
-  background: #062a35;
+  background: #002356;
   height: 40px;
   width: 40px;
   right: 50px;
@@ -2604,7 +2604,7 @@ label {
 
 .main-menu nav>ul>li:hover>a,
 .main-menu nav>ul>li.active>a {
-  color: #ea5822;
+  color: #4688eb;
 }
 
 /* sub-menu */
@@ -2619,7 +2619,7 @@ label {
   visibility: hidden;
   width: 220px;
   z-index: 9;
-  border-top: 3px solid #ea5822;
+  border-top: 3px solid #4688eb;
   text-align: left;
   
 }
@@ -2646,7 +2646,7 @@ label {
 
 .main-menu nav>ul>li:hover>.sub-menu li>a:hover {
   color: #fff;
-  background: #ea5822;
+  background: #66a3ff;
 }
 
 /* Hamburger-menu */
@@ -2856,7 +2856,7 @@ label {
 .hero-slider-caption span {
   font-size: 18px;
   font-weight: 600;
-  color: #ea5822;
+  color: #002356;
   text-transform: capitalize;
 }
 
@@ -2956,7 +2956,7 @@ label {
 
 .support:before {
   content: '';
-  background-color: #ea5822;
+  background-color: #002356;
   position: absolute;
   left: -15px;
   top: 5px;
@@ -2966,7 +2966,7 @@ label {
 }
 
 .support .support-icon i {
-  color: #ea5822;
+  color: #4688eb;
   font-size: 38px;
   margin-right: 18px;
 }
@@ -3191,7 +3191,7 @@ label {
 }
 
 .counter-icon i {
-  color: #002356;
+  color: #4688eb;
   font-size: 40px;
   position: relative;
   top: 2px;
@@ -3209,7 +3209,7 @@ label {
 }
 
 .counter-text>span {
-  color: #6e838a;
+  color: #002356;
   font-size: 15px;
   font-weight: 500;
 }
@@ -3350,7 +3350,7 @@ label {
 }
 
 .course-cat-text h4 a:hover {
-  color: #ea5822;
+  color: #4688eb;
 }
 
 .course-cat-text h4>span {
@@ -6495,7 +6495,7 @@ label {
   width: 60px;
   line-height: 60px;
   text-align: center;
-  background: #062a35;
+  background: #002356;
   color: white;
   font-size: 20px;
   display: inline-block;
@@ -6503,7 +6503,7 @@ label {
 }
 
 .blog-button>a:hover {
-  background: #ea5822;
+  background: #4688eb;
 }
 
 .blogs .blog-tag a {
@@ -8224,7 +8224,7 @@ label {
 }
 
 .link:hover {
-  color: #ea5822;
+  color: #002356;
   padding-left: 10px;
   transition: all 0.4s;
   cursor: pointer;
@@ -8235,15 +8235,15 @@ label {
   transition: all 0.4s;
   border-radius: 5px;
   border: none;
-  background-color: #ea5822;
+  background-color: #002356;
 }
 
 .link1:hover {
   color: white;
-  padding-left: 10px;
+ /* padding-left: 10px;*/
   transition: all 0.4s;
   cursor: pointer;
-  background-color: #ec1f1f;
+  background-color: #4688eb;
   border-radius: 5px;
 }
 

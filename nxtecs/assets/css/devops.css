@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ea5822;
+    color: #66a3ff;
 }
 .section-title1 {
     display: flex;
@@ -20,7 +20,7 @@
     
 }
 .section-title1 hr {
-border-top: 2px dotted #ea5822;
+border-top: 2px dotted #66a3ff;
 width: 100px;
 }
 
