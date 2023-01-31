@@ -2847,11 +2847,11 @@ label {
   }
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .hero-content {
     margin-top: 8px;
   }
-}
+}*/
 
 .hero-slider-caption span {
   font-size: 18px;
@@ -7998,19 +7998,19 @@ label {
 .footer-social-icon a {
   font-size: 16px;
   font-weight: 600;
-  padding-left: 20px;
+  padding-left: 10px;
   position: relative;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .footer-social-icon a {
-    padding-left: 40px;
+    padding-left: 15px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-social-icon a {
-    padding-left: 2px;
+    padding-left: 10px;
   }
 }
 
