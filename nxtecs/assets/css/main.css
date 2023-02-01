@@ -2257,7 +2257,7 @@ label {
   min-height: 580px;
   position: relative;
   margin-top: 130px;
-  margin-left: 54px;
+  margin-left: 0px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
