@@ -2251,7 +2251,7 @@ label {
 
 .page-title-area {
   width: 100%;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 535px;
