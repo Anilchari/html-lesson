@@ -2250,13 +2250,14 @@ label {
 }
 
 .page-title-area {
-  width: 100%;
-  background-size: cover;
+  width: 90%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 535px;
+  min-height: 580px;
   position: relative;
   margin-top: 130px;
+  margin-left: 54px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
