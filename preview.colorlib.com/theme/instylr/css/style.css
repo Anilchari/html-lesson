@@ -1,4 +1,3 @@
-
 /* =================================
 ------------------------------------
   INSTYLR | Fashion HTML Template
@@ -219,12 +218,14 @@ ol {
 		border: 4px solid #f44336;
 		border-left-color: transparent;
 	}
+
 	50% {
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
 		border: 4px solid #673ab7;
 		border-left-color: transparent;
 	}
+
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
@@ -470,7 +471,7 @@ ol {
 
 .hero-slider .owl-dots {
 	position: absolute;
-	right: 210px;
+	/*right: 210px;*/
 	bottom: 34px;
 }
 
@@ -851,7 +852,7 @@ ol {
 }
 
 .award-slider .owl-nav {
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 .award-slider .owl-nav button.owl-prev,
@@ -1442,13 +1443,16 @@ ol {
 		height: 250px;
 		border: 10px solid #fff;
 	}
+
 	.hs-item h2 {
 		font-size: 100px;
 	}
+
 	.blog-slider .owl-nav {
 		text-align: center;
 		padding-top: 50px;
 	}
+
 	.blog-slider .owl-nav button.owl-prev,
 	.blog-slider .owl-nav button.owl-next {
 		position: relative;
@@ -1465,9 +1469,11 @@ ol {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
+
 	.hs-item h2 {
 		font-size: 90px;
 	}
+
 	.hs-item .next-hs {
 		display: none;
 	}
@@ -1481,58 +1487,74 @@ ol {
 		display: block;
 		text-align: center;
 	}
+
 	.navbar-brand {
 		display: block;
 	}
+
 	.navbar-expand-md .navbar-collapse {
 		display: block !important;
 	}
+
 	.navbar-expand-md .navbar-nav {
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
 		justify-content: center;
 	}
+
 	.site-navbar.navbar-dark .navbar-nav .nav-link {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
+
 	.social-links a:first-child {
 		margin-left: 0;
 	}
+
 	.hero-social-warp {
 		padding: 30px 60px;
 		padding-left: 2px;
 		bottom: -87px;
 		z-index: 9;
 	}
+
 	.hs-item {
 		padding: 0px 85px;
 		height: 800px;
 	}
+
 	.hs-item h2 {
 		font-size: 65px;
 	}
+
 	.hs-item .next-hs {
 		display: none;
 	}
+
 	.intro-text {
 		padding-top: 50px;
 	}
+
 	.footer-widget {
 		margin-bottom: 40px;
 	}
+
 	.page-top-section .hero-social-warp {
 		bottom: -165px;
 	}
+
 	.milestone-item {
 		margin-bottom: 30px;
 	}
+
 	.portfolio-page {
 		padding: 116px 86px;
 	}
+
 	.contact-page .map {
 		margin-top: 50px;
 	}
+
 	.sidebar {
 		padding-top: 50px;
 	}
@@ -1545,25 +1567,32 @@ ol {
 		padding-right: 0;
 		padding-left: 0;
 	}
+
 	.social-links a:first-child {
 		margin-left: 0;
 	}
+
 	.hero-slider .owl-dots {
 		right: 100px;
 	}
+
 	.hero-slider .owl-nav {
 		right: 15px;
 	}
+
 	.hs-item {
 		padding: 250px 15px;
 		height: auto;
 	}
+
 	.hs-item h2 {
 		font-size: 50px;
 	}
+
 	.hs-item .next-hs {
 		display: none;
 	}
+
 	.hero-social-warp {
 		position: relative;
 		left: 0;
@@ -1578,25 +1607,32 @@ ol {
 		text-align: center;
 		background: #f8f9fb;
 	}
+
 	.hero-social-warp p {
 		padding-bottom: 15px;
 	}
+
 	.hero-social-warp .hero-social-links {
 		padding: 0 10px;
 	}
+
 	.hero-social-warp .hero-social-links a:first-child {
 		margin-left: 0;
 	}
+
 	.hero-social-warp .hero-social-links a i {
 		-webkit-transform: rotate(0);
 		transform: rotate(0);
 	}
+
 	.intro-text {
 		padding-top: 50px;
 	}
+
 	.footer-widget {
 		margin-bottom: 40px;
 	}
+
 	.page-top-section {
 		position: relative;
 		height: 474px;
@@ -1614,9 +1650,11 @@ ol {
 		-ms-flex-pack: center;
 		justify-content: center;
 	}
+
 	.page-top-section h2 {
 		font-size: 50px;
 	}
+
 	.page-top-section .hero-social-warp {
 		position: absolute;
 		left: 0;
@@ -1625,18 +1663,23 @@ ol {
 		text-align: center;
 		width: 100%;
 	}
+
 	.milestone-item {
 		margin-bottom: 30px;
 	}
+
 	.portfolio-page {
 		padding: 116px 15px;
 	}
+
 	.portfolio-cata li a {
 		font-size: 18px;
 	}
+
 	.contact-page .map {
 		margin-top: 50px;
 	}
+
 	.sidebar {
 		padding-top: 50px;
 	}
@@ -1648,39 +1691,48 @@ ol {
 	.site-navbar {
 		padding: 15px;
 	}
+
 	.hs-item h2,
 	.page-top-section h2 {
 		font-size: 40px;
 	}
+
 	.award-slider .owl-controls {
 		padding-bottom: 50px;
 		padding-top: 40px;
 	}
+
 	.award-slider .owl-dots {
 		display: block;
 		float: none;
 	}
+
 	.award-slider .owl-nav {
 		position: absolute;
 		width: 100%;
 		left: 0;
 		bottom: 0;
 	}
+
 	.blog-comments .comments-list .comment-avatar {
 		float: none;
 		margin-bottom: 15px;
 	}
+
 	.blog-item .blog-date {
 		left: 10px;
 		top: 10px;
 	}
+
 	.blog-item .blog-head {
 		width: calc(100% - 20px);
 		margin-left: 10px;
 	}
+
 	.blog-item .blog-head h2 {
 		font-size: 24px;
 	}
+
 	.blog-item .blog-head.bh-sm h2 {
 		font-size: 24px;
 	}
