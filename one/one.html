@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+        *
+        {
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins', sans-serif;
+        }
+        body{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           background: #fff;
+        }
+        .container{
+            position: relative;
+            width: 1100px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+        .container .card{
+            position: relative;
+            max-width: 300px;
+            height: 215px;
+            background: #fff;
+            margin: 30px 10px;
+            padding: 20px 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+            transition: 0.3s ease-in-out;
+        }
+        .card .card .imgBx{
+            position: relative;
+            max-width: 260px;
+            height: 260px;
+            top: -60px;
+            left: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+        .card .card .imgBx img{
+            max-width: 100%;
+            border-radius: 4px;
+        }
+        .container .card .content{
+            position: relative;
+            margin-top: -140px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #111;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+        .container .card:hover .content{
+            visibility: visible;
+            opacity: 1;
+            margin-top: -40px;
+            transition-delay: 0.3s;
+        }
+    </style>
+    <title>Services</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="WhatsApp Image 2023-02-08 at 17.47.20.jpeg" alt="" width="300px" height="200px">
+            </div>
+            <div class="content">
+                <h2>Card One</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eius pariatur quisquam deserunt. Sequi temporibus amet atque 
+                praesentium porro assumenda cupiditate!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src="WhatsApp Image 2023-02-08 at 17.47.21.jpeg" alt="" width="300px" height="200px">
+            </div>
+            <div class="content">
+                <h2>Card Two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eius pariatur quisquam deserunt. Sequi temporibus amet atque 
+                praesentium porro assumenda cupiditate!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src="WhatsApp Image 2023-02-08 at 17.47.22.jpeg" alt="" width="300px" height="200px">
+            </div>
+            <div class="content">
+                <h2>Card Three</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eius pariatur quisquam deserunt. Sequi temporibus amet atque 
+                praesentium porro assumenda cupiditate!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
