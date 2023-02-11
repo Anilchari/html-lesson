@@ -3311,6 +3311,9 @@ label {
 /* 5. course */
 .course-cat-img {
   position: relative;
+  border-left: 1px solid #d7d7d7;
+  border-top: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
 }
 
 .course-cat-img a {
@@ -3321,10 +3324,12 @@ label {
 .course-cat-img a img {
   width: 100%;
   transition: .3s;
+  
 }
 
 .course-cat-wrapper:hover .course-cat-img img {
   transform: scale(1.1);
+  
 }
 
 .course-cat-text {
