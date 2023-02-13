@@ -401,18 +401,12 @@ ol {
 }
 
 .owl-item.active .hs-item h2,
-.owl-item.active .hs-item h4,
 .owl-item.active .hs-item .site-btn {
 	top: 0;
 	opacity: 1;
 }
 
 .owl-item.active .hs-item h2 {
-	-webkit-transition: all 0.5s ease 0.2s;
-	transition: all 0.5s ease 0.2s;
-}
-
-.owl-item.active .hs-item .h4 {
 	-webkit-transition: all 0.5s ease 0.2s;
 	transition: all 0.5s ease 0.2s;
 }
