@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="185" viewBox="0 0 370 185">
+  <defs>
+    <clipPath id="a">
+      <path d="M2 0h366a2 2 0 0 1 2 2v183H0V2a2 2 0 0 1 2-2Z" style="fill:#fff;stroke:#707070" />
+    </clipPath>
+    <style>.c{fill:#00d9c8}.f{fill:none;stroke-miterlimit:10;stroke:#000;stroke-width:2px}</style>
+  </defs>
+  <g style="clip-path:url(#a)">
+    <path class="c" d="M0 0h370v5H0Z" />
+    <path d="M0 84.215A99.2 99.2 0 0 0 46.679 0" transform="rotate(160 61.567 69.629)" style="stroke:#0357ff;fill:none;stroke-miterlimit:10" />
+    <g transform="translate(68.353 25.046)">
+      <path d="M0 87.038V48.866A48.925 48.925 0 0 0 48.867 0h38.172a86.475 86.475 0 0 1-25.5 61.542A86.478 86.478 0 0 1 0 87.038Z" style="fill:#6d6df7" transform="rotate(141 48.737 56.894)" />
+      <path class="c" d="M125.137 132.437a62.543 62.543 0 1 1 54.8-62.065 62.4 62.4 0 0 1-22.334 47.9l-32.466 31.765Z" />
+      <path class="f" d="M62.677 70.356a54.721 54.721 0 0 1 109.443 0" />
+      <path class="f" d="M117.399 0a70.356 70.356 0 0 1 70.356 70.356" />
+      <path d="M17.733 34.455C23.283 27.048 38.625 0 38.625 0S11.557 15.322 4.189 20.892a9.772 9.772 0 0 0-1.446 1.192A9.772 9.772 0 0 0 16.56 35.9a9.644 9.644 0 0 0 1.173-1.445Z" transform="translate(107.796 41.354)" style="fill:#ffd000" />
+      <circle class="f" cx="1.954" cy="1.954" r="1.954" transform="translate(115.444 68.597)" />
+    </g>
+    <path d="M4.681 0a4.681 4.681 0 1 0 4.681 4.681A4.681 4.681 0 0 0 4.681 0Z" transform="rotate(-30 421.66 -260.78)" style="fill:#ff5276" />
+  </g>
+</svg>
