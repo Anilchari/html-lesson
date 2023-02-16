@@ -14698,7 +14698,7 @@ header .navbar.navbar-expand-xl .navbar-nav .nav-item+.nav-item {
 header .navbar.navbar-expand-xl .navbar-nav .nav-link {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+   /* display: flex; */
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -14771,12 +14771,12 @@ header .navbar.navbar-expand-xl .navbar-nav .nav-link .label-menu::before {
     right: 10px
 }
 
-header .navbar.navbar-expand-xl .navbar-nav .nav-link::before {
+ /* header .navbar.navbar-expand-xl .navbar-nav .nav-link::before {
     content: "";
     position: absolute;
-    font-family: "Font Awesome 6 Free";
+    /* font-family: "Font Awesome 6 Free"; 
     font-weight: 900;
-    right: -12px
+    right: -12px */
 }
 
 [dir="rtl"] header .navbar.navbar-expand-xl .navbar-nav .nav-link::before {
@@ -28133,7 +28133,7 @@ header .offcanvas-backdrop {
     border-radius: 4px
 }
 
-.shop-section .left-box .shop-left-sidebar .filter-category ul li:before {
+/*.shop-section .left-box .shop-left-sidebar .filter-category ul li:before {
     content: "";
     position: absolute;
     top: 50%;
@@ -28144,7 +28144,7 @@ header .offcanvas-backdrop {
     right: 13px;
     color: #777;
     cursor: pointer
-}
+} */
 
 .shop-section .left-box .shop-left-sidebar .filter-category ul li a {
     color: #777
@@ -28171,11 +28171,11 @@ header .offcanvas-backdrop {
     margin-bottom: 9px
 }
 
-.shop-section .left-box .shop-left-sidebar .custome-accordion .accordion-item .accordion-header .accordion-button.collapsed::before {
+/*.shop-section .left-box .shop-left-sidebar .custome-accordion .accordion-item .accordion-header .accordion-button.collapsed::before {
     content: "\f107";
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg)
-}
+} */
 
 .shop-section .left-box .shop-left-sidebar .custome-accordion .accordion-item .accordion-header .accordion-button:focus {
     border-color: unset;
@@ -28187,7 +28187,7 @@ header .offcanvas-backdrop {
     content: none
 }
 
-.shop-section .left-box .shop-left-sidebar .custome-accordion .accordion-item .accordion-header .accordion-button::before {
+/*.shop-section .left-box .shop-left-sidebar .custome-accordion .accordion-item .accordion-header .accordion-button::before {
     content: "";
     position: absolute;
     font-family: "Font Awesome 6 Free";
@@ -28210,7 +28210,7 @@ header .offcanvas-backdrop {
     border-radius: 100%;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
-}
+} */
 
 [dir="rtl"] .shop-section .left-box .shop-left-sidebar .custome-accordion .accordion-item .accordion-header .accordion-button::before {
     right: unset;
