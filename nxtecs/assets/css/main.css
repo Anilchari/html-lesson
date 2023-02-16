@@ -170,6 +170,7 @@ p {
   line-height: 28px;
   color: #0a0a23;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 hr {
@@ -5667,6 +5668,7 @@ label {
   color: #062a35;
   display: inline-block;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 @media (max-width: 767px) {
