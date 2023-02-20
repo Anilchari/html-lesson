@@ -423,3 +423,30 @@ if ($('#contact-map').length != 0) {
 	  }
 
 	})(jQuery);
+
+
+
+
+	const carouselSlide = document.querySelector(".carousel-slide");
+const carouselItems = document.querySelectorAll(".carousel-item");
+const prevButton = document.querySelector(".carousel-prev");
+const nextButton = document.querySelector(".carousel-next");
+
+let slidePosition = 0;
+
+function moveSlide(direction) {
+  if (direction === "prev" && slidePosition > 0) {
+    slidePosition--;
+  } else if (direction === "next" && slidePosition < carouselItems.length - 1) {
+    slidePosition++;
+  }
+  carouselSlide.style.transform = `translateX(-${slidePosition * 100}%)`;
+}
+
+prevButton.addEventListener("click", () => {
+  moveSlide("prev");
+});
+
+nextButton.addEventListener("click", () => {
+  moveSlide("next");
+});
