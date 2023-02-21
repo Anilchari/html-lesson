@@ -5573,8 +5573,8 @@ label {
 }
 
 .testimonial-wrapper {
-  margin-right: 90px;
-  margin-left: 20px;
+  margin-right: 20px;
+  margin-left: 30px;
   margin-top: 20px;
   position: relative;
 }
@@ -5602,7 +5602,7 @@ label {
 .testimonial-wrapper::after {
   position: absolute;
   right: 45px;
-  content: "";
+  content: "";
   font-family: "Flaticon";
   bottom: 40px;
   color: #002356;
@@ -5643,6 +5643,11 @@ label {
   padding: 53px 53px 160px 54px;
   position: relative;
 }
+.testimonial-text1 {
+  background-color: #;
+  padding: 53px 53px 160px 54px;
+  position: relative;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .testimonial-text {
@@ -5661,6 +5666,27 @@ label {
     padding: 25px 10px 130px 25px;
   }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .testimonial-text1 {
+    padding: 20px 15px 100px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial-text1 {
+    padding: 25px 10px 100px 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .testimonial-text1 {
+    padding: 25px 10px 130px 25px;
+  }
+}
+
+
+
 
 .testimonial-text span {
   font-size: 24px;
