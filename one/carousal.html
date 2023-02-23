@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s;
+}
+.slide {
+  flex-shrink: 0;
+  width: 33.3333%;
+  position: relative;
+}
+.slide .img-container {
+  position: relative;
+  overflow: hidden;
+}
+.slide img {
+  width: 100%;
+  display: block;
+  height: 600px;
+  transition: transform 0.5s;
+}
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.5s;
+  transform: translateX(100%);
+}
+.slide:hover img {
+  transform: scale(1.1);
+}
+.slide:hover .caption {
+  transform: translateX(0%);
+}
+.caption h2 {
+  margin-top: 0;
+}
+.caption p {
+  margin-bottom: 20px;
+}
+.caption button {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.indicators ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #aaa;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.indicators li.active {
+  background-color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .slides {
+    width: 400%;
+  }
+  .slide {
+    width: 50%;
+  }
+}
+``
+
+</style>
+
+<body>
+    <div class="slider">
+        <div class="slides">
+          <div class="slide">
+            <div class="img-container">
+              <img src="WhatsApp Image 2023-02-08 at 17.47.20.jpeg" alt="">
+              <div class="caption">
+                <h2>Slide 1 Title</h2>
+                <p>Slide 1 Description</p>
+                <button>Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="img-container">
+              <img src="WhatsApp Image 2023-02-08 at 17.47.21.jpeg" alt="">
+              <div class="caption">
+                <h2>Slide 2 Title</h2>
+                <p>Slide 2 Description</p>
+                <button>Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="img-container">
+              <img src="WhatsApp Image 2023-02-08 at 17.47.22.jpeg" alt="">
+              <div class="caption">
+                <h2>Slide 3 Title</h2>
+                <p>Slide 3 Description</p>
+                <button>Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="indicators">
+          <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      
+
+</body>
+<script>
+    $(document).ready(function() {
+  var slideCount = $('.slider .slides .slide').length;
+  var slideWidth = $('.slider .slides .slide').width();
+  var slideHeight = $('.slider .slides .slide').height();
+  var sliderUlWidth = slideCount * slideWidth;
+  
+  $('.slider').css({ width: slideWidth, height: slideHeight });
+  
+  $('.slider .slides').css({ width: sliderUlWidth, marginLeft: -slideWidth });
+  
+  $('.slider .slides .slide:last-child').prependTo('.slider .slides');
+
+  function moveLeft() {
+    $('.slider .slides').animate({
+      left: +slideWidth
+    }, 500, function () {
+        $('.slider .slides .slide:last-child').prependTo('.slider .slides');
+        $('.slider .slides').css('left', '');
+    });
+  };
+
+  function startSlider() {
+    setInterval(function() {
+      moveLeft();
+    }, 2000);
+  };
+
+  startSlider();
+});
+
+</script>
+
+</html>

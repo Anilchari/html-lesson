@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Title</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="container" style="display: flex; align-items: center; justify-content: center;">
+            <div class="logo">
+                <a href="#"><img src="logo.png" alt="Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Dropdown</a>
+                  <!--  <ul>
+                        <li><a href="#">Option 1</a></li>
+                        <li><a href="#">Option 2</a></li>
+                        <li><a href="#">Option 3</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Section -->
+    <section class="section1" >
+        <div class="container" style="display: flex; align-items: center; justify-content: center;">
+            <div class="left">
+                <div class="right">
+                    <img src="WhatsApp Image 2023-02-08 at 17.47.21.jpeg" alt="Background Image">
+                <h1>Section 1 Title</h1>
+                <p>Section 1 Description</p>
+                <button>Button</button>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Section -->
+    <section class="section2">
+        <div class="container">
+            <h2>Section 2 Title</h2>
+            <div class="card-container">
+                <div class="card col-lg-4" >
+                    <div class="card-front">
+                        <img src="card1.jpg" alt="Card Image">
+                    </div>
+                    <div class="card-back">
+                        <h3>Card Title</h3>
+                        <p>Card Description</p>
+                        <button>Button</button>
+                    </div>
+                </div>
+                <div class="card col-lg-4" >
+                    <div class="card-front">
+                        <img src="card2.jpg" alt="Card Image">
+                    </div>
+                    <div class="card-back">
+                        <h3>Card Title</h3>
+                        <p>Card Description</p>
+                        <button>Button</button>
+                    </div>
+                </div>
+                <div class="card col-lg-4">
+                    <div class="card-front">
+                        <img src="card3.jpg" alt="Card Image">
+                    </div>
+                    <div class="card-back">
+                        <h3>Card Title</h3>
+                        <p>Card Description</p>
+                        <button>Button</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-front">
+                        <img src="card4.jpg" alt="Card Image">
+                    </div>
+                    <div class="card-back">
+                        <h3>Card Title</h3>
+                        <p>Card Description</p>
+                        <button>Button</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Third Section-->
+</body>
+<script>
+    // Select DOM elements
+const burger = document.querySelector(".burger");
+const navLinks = document.querySelector(".nav-links");
+
+// Add event listener to the burger menu icon
+burger.addEventListener("click", () => {
+  // Toggle the class "active" on both the burger menu icon and the navigation links
+  navLinks.classList.toggle("active");
+  burger.classList.toggle("active");
+});
+
+</script>
+
+</html>
