@@ -308,9 +308,86 @@ a:hover,a.active {
     color: #000;
   }
 
+  .carousel {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+  }
+  
+  .carousel-indicators li.active {
+    background-color: #fff;
+  }
+  
+
+
+
+
+
+
   .marquee {
     overflow: hidden;
     white-space: nowrap;
+    background-color: aquamarine;
   }
   
   .marquee-content {
