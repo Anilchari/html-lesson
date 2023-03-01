@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Testimonial section</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    section {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2196f3;
+        overflow: hidden;
+    }
+
+    .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+        padding: 40px;
+        box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+        filter: blur(3px);
+
+    }
+    .swiper-slide-active {
+        filter: blur(0px);
+    }
+
+
+    .swiper-slide img {
+        display: block;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+
+    }
+    .flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+</style>
+
+<body>
+    <section>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <h3>LOREM</h3> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate ipsa perspiciatis magnam
+                        eius? Consequuntur eveniet eaque aperiam harum aliquam reiciendis! Mollitia delectus ut iure
+                        numquam esse libero sequi pariatur!</p> <br>
+                    <div class="flex">
+                        <img src="WhatsApp Image 2023-02-08 at 17.47.20.jpeg" alt="">
+                        <h4>some one</h4>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <h3>LOREM</h3> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate ipsa perspiciatis magnam
+                        eius? Consequuntur eveniet eaque aperiam harum aliquam reiciendis! Mollitia delectus ut iure
+                        numquam esse libero sequi pariatur!</p> <br>
+                    <div class="flex">
+                        <img src="WhatsApp Image 2023-02-08 at 17.47.20.jpeg" alt="">
+                        <h4>some one</h4>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <h3>LOREM</h3> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate ipsa perspiciatis magnam
+                        eius? Consequuntur eveniet eaque aperiam harum aliquam reiciendis! Mollitia delectus ut iure
+                        numquam esse libero sequi pariatur!</p> <br>
+                    <div class="flex">
+                        <img src="WhatsApp Image 2023-02-08 at 17.47.20.jpeg" alt="">
+                        <h4>some one</h4>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <h3>LOREM</h3> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate ipsa perspiciatis magnam
+                        eius? Consequuntur eveniet eaque aperiam harum aliquam reiciendis! Mollitia delectus ut iure
+                        numquam esse libero sequi pariatur!</p> <br>
+                    <div class="flex">
+                        <img src="WhatsApp Image 2023-02-08 at 17.47.20.jpeg" alt="">
+                        <h4>some one</h4>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <h3>LOREM</h3> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate ipsa perspiciatis magnam
+                        eius? Consequuntur eveniet eaque aperiam harum aliquam reiciendis! Mollitia delectus ut iure
+                        numquam esse libero sequi pariatur!</p> <br>
+                    <div class="flex">
+                        <img src="WhatsApp Image 2023-02-08 at 17.47.20.jpeg" alt="">
+                        <h4>some one</h4>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 10,
+                stretch: 0,
+                depth: 100,
+                modifier: 2,
+                slideShadows: true,
+            },
+            loop: true,
+           /* pagination: {
+                el: ".swiper-pagination",
+            }, */
+        });
+    </script>
+</body>
+
+
+
+
+
+</html>
