@@ -8350,3 +8350,17 @@ padding-top: 20px;
 background-color: #ea5822;
 cursor: pointer;
 }
+
+
+
+.float img {
+	position:fixed;
+	width:80px;
+	height:80px;
+	bottom:40px;
+	left: 40px;
+	text-align:center;
+  font-size:30px;
+  z-index:1;
+}
+
