@@ -4460,7 +4460,7 @@ label {
 
 .team-icon>a:hover {
   color: white;
-  background: #ea5822;
+  /*background: #ea5822; */
 }
 
 .team-icon>a:last-child {
@@ -8054,7 +8054,7 @@ label {
   font-weight: 600;
   padding-left: 10px;
   position: relative;
-}
+} 
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .footer-social-icon a {
