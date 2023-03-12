@@ -2607,6 +2607,8 @@ label {
 .main-menu nav>ul>li:hover>a,
 .main-menu nav>ul>li.active>a {
   color: #4688eb;
+  font-style: italic;
+  font-size: 25px;
 }
 
 /* sub-menu */
