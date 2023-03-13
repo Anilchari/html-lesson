@@ -2651,6 +2651,8 @@ label {
 .main-menu nav>ul>li:hover>.sub-menu li>a:hover {
   color: #fff;
   background: #66a3ff;
+  font-style: italic;
+  font-size: 25px;
 }
 
 /* Hamburger-menu */
@@ -8375,4 +8377,11 @@ cursor: pointer;
     left: 20px;
     text-align:center;
   }
+}
+
+#myDIV {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;  
+  margin-top: 20px;
 }
