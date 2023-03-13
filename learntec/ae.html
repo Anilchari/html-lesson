@@ -244,10 +244,10 @@
             <div class="clearfix" style="padding-left: 45%;">
 
                 <button type="submit" class="Confirmbtn" onclick="myFunction()"
-                    style="width: 30%; height: 40px; background: #002356;">Check Curriculum here</button>
+                    style="width: 30%; height: 50px; background: #002356;">Check Curriculum here</button>
             </div>
             <div id="myDIV">
-                <div class="counter-area pb-20 pt-80">
+                <div class="counter-area pb-20 pt-60">
                     <div class="container">
                         <div class="counter-bg">
                             <div class="row">
@@ -665,11 +665,11 @@
     <script src="assets/js/main.js"></script>
     <script>
         function myFunction() {
-            var x = document.getElementById("myDIV");
-            if (x.style.display === "none") {
-                x.style.display = "block";
+            var element = document.getElementById("myDIV");
+            if (element.style.display === "none") {
+                element.style.display = "block";
             } else {
-                x.style.display = "none";
+                element.style.display = "none";
             }
         }
     </script>
