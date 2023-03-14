@@ -28,8 +28,8 @@
 
 <body>
     <a href="#" class="float"> <img src="./whatsapp.png" alt="">
-       <!-- <i class="fa fa-whatsapp my-float"></i> -->
-        </a>
+        <!-- <i class="fa fa-whatsapp my-float"></i> -->
+    </a>
     <!-- header-start -->
     <header class="header-transparent">
         <div id="sticky-header" class="main-menu-area menu-padding pl-55 pr-55">
@@ -74,10 +74,15 @@
                     <div class="col-xl-3 col-lg-5 col-md-6 col-4">
                         <div class="header-right d-sm-flex align-items-center justify-content-end">
                             <div class="footer-social-icon d-none d-md-inline-block">
-                                <a class="fot-fb active" href="#"><img src="Facebook-Splash-Icon-PNG-S-09idfd.png" alt="" style="height: 40px; width: 40px;"></a>
-                                <a class="fot-twitter" href="#"><!--<i class="fab fa-twitter"></i>--><img src="Twitter-Splash-Icon-PNG-S-09idfd.png" alt="" style="height: 40px; width: 40px;"></a>
-                                <a class="fot-google" href="#"><img src="YouTube-Splash-Icon-PNG-S-09idfd.png" alt="" style="height: 40px; width: 40px;"></a>
-                                <a class="fot-insta" href="#"><img src="Instagram-Splash-Icon-PNG-S-09idfd.png" alt="" style="height: 40px; width: 40px;"></a>
+                                <a class="fot-fb active" href="#"><img src="Facebook-Splash-Icon-PNG-S-09idfd.png"
+                                        alt="" style="height: 40px; width: 40px;"></a>
+                                <a class="fot-twitter" href="#"><!--<i class="fab fa-twitter"></i>--><img
+                                        src="Twitter-Splash-Icon-PNG-S-09idfd.png" alt=""
+                                        style="height: 40px; width: 40px;"></a>
+                                <a class="fot-google" href="#"><img src="YouTube-Splash-Icon-PNG-S-09idfd.png" alt=""
+                                        style="height: 40px; width: 40px;"></a>
+                                <a class="fot-insta" href="#"><img src="Instagram-Splash-Icon-PNG-S-09idfd.png" alt=""
+                                        style="height: 40px; width: 40px;"></a>
                             </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <!--<div class="header-sing d-none d-md-inline-block">
                                 <a href="contact.html"> <i class="far fa-user-circle"></i>sing in</a>
@@ -129,7 +134,7 @@
         <nav class="side-mobile-menu">
             <ul id="mobile-menu-active">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li ><a href="about_us.html">About Us</a></li>
+                <li><a href="about_us.html">About Us</a></li>
                 <!--    <li><a href="course.html">Courses</a></li> -->
 
                 <li class="active"><a href="#">Skills <i class="far fa-angle-right"></i></a>
@@ -219,34 +224,48 @@
                 <div class="col-xl-6 col-lg-6 ">
                     <div class="lg-btn1 lg-btn-03 text-center">
                         <a class="c-btn" onclick="document.getElementById('id01').style.display='block'"
-                            style="background-color: #002356;  color: white; padding-top: 21px; height: 75px;"
-                            href="#"> Click here to get free career Counselling</a>
+                            style="background-color: #002356;  color: white; padding-top: 21px; height: 75px;" href="#">
+                            Click here to get free career Counselling
+                        </a>
 
 
-                            <div id="id01" class="modal">
-                                <span onclick="document.getElementById('id01').style.display='none'" class="close"
-                                    title="Close Modal">&times;</span>
-                                <form class="modal-content" action="/action_page.php" style="text-align: left; width: 500PX;">
-                                    <div class="container">
-                                        <a href="index.html"><i class="fas fa-times"
-                                            style="color: BLACK;"></i></a>
-                                        
-                                        <!--<p>Please fill in this form to create an account.<p>-->
-                                        <hr>
-                                        <label for="name"><b>Name</b></label>
-                                        <input type="text" placeholder="Enter Name" name="name" required>
+                        <div id="id01" class="modal" style="z-index: 999; height: 800px;">
+                            <span onclick="document.getElementById('id01').style.display='none'" class=""
+                                title=""></span>
+                            <form class="modal-content" action="/action_page.php"
+                                style="text-align: left; width: 500PX;">
+                                <div class="container">
+                                    <a href="index.html"><i class="fas fa-times" style="color: BLACK;"></i></a>
 
-                                        <label for="phone"><b>Mobile number</b></label>
-                                        <input type="tel" placeholder="Enter Mobile number" name="phone"
-                                            pattern="[0-9]{10}" required>
+                                    <!--<p>Please fill in this form to create an account.<p>-->
+                                    <hr>
+                                    <label for="name"><b>Name</b></label>
+                                    <input type="text" placeholder="Enter Name" name="name" required>
 
-                                        <label for="email"><b>Email</b></label>
-                                        <input type="email" placeholder="Enter your email" name="email" required>
-                                        
-                                        <label for="email"><b>Courses want to know</b></label>
-                                        <input type="text" placeholder="Enter Course name" name="text" required>
-                                            <br>
-                                        <!-- <label>
+                                    <label for="phone"><b>Mobile number</b></label>
+                                    <input type="tel" placeholder="Enter Mobile number" name="phone" pattern="[0-9]{10}"
+                                        required>
+
+                                    <label for="email"><b>Email</b></label>
+                                    <input type="email" placeholder="Enter your email" name="email" required>
+
+                                    <label for="email"><b>City</b></label>
+                                    <input type="text" placeholder="Enter City name" name="text" required>
+                                    <br>
+
+                                    <label for="address"><b>Courses</b></label> <br>
+                                            <select type="address" name="address" required
+                                                style="width: 300px !important;">
+                                                <option selected value="1">please select course</option>
+                                                <option value="2">DevOps</option>
+                                                <option value="2">AEM</option>
+                                                <option value="2">Cyber Security</option>
+                                                <option value="2">Python</option>
+                                                <option value="2">Data Analyst</option>
+                                            </select> <br><br>
+
+                                    
+                                    <!-- <label>
                                             <input type="checkbox" checked="checked" name="remember"
                                                 style="margin-bottom:15px"> Remember me
                                         </label>
@@ -254,22 +273,22 @@
                                         <p>By creating an account you agree to our <a href="#"
                                                 style="color:dodgerblue">Terms & Privacy</a>.</p>-->
 
-                                        
-                                            <button type="submit" class="Confirmbtn" style="height: 50px;">Submit</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
 
-
-
-
-
-
-
+                                    <button type="submit" class="Confirmbtn" style="height: 50px;">Submit</button>
+                                </div>
+                        </div>
+                        </form>
                     </div>
+
+
+
+
+
+
+
                 </div>
             </div>
+        </div>
         </div>
 
         <!-- counter-area-start -->
@@ -330,95 +349,131 @@
 
         <marquee behavior="scroll" direction="left">
             <div style="display: flex;">
-                
+
                 <!-- <div style="width: 300px; display: block;">
                     <a href=""> <img src=""
                             alt=""> devops</a>
                 </div> -->
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
-                        href="devops.html"><img src="./devops.jpg"  style="height: 50px; width: 80px; " alt=""> DEVOPS</a>
+
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
+                        href="devops.html"><img src="./devops.jpg" style="height: 50px; width: 80px; " alt="">
+                        DEVOPS</a>
                 </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
                         href="ae.html"><img src="./aem.png" style="height: 45px; width: 45px; " alt=""> AEM</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
-                        href="cybersecurity.html"> <img src="./security.png" style="height: 45px; width: 55px; " alt=""> CYBER SECURITY</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                        href="cybersecurity.html"> <img src="./security.png" style="height: 45px; width: 55px; " alt="">
+                        CYBER SECURITY</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
-                        href="python.html"><img src="./python.png" style="height: 45px; width: 45px; " alt=""> PYTHON</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                        href="python.html"><img src="./python.png" style="height: 45px; width: 45px; " alt="">
+                        PYTHON</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
-                        href="dataanalyst.html"> <img src="./analytics.png" style="height: 45px; width: 45px; " alt=""> DATA  ANALYTICS</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
+                        href="dataanalyst.html"> <img src="./analytics.png" style="height: 45px; width: 45px; " alt="">
+                        DATA ANALYTICS</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
-                        href="devops.html"><img src="./devops.jpg"  style="height: 50px; width: 80px; " alt=""> DEVOPS</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
+                        href="devops.html"><img src="./devops.jpg" style="height: 50px; width: 80px; " alt="">
+                        DEVOPS</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
                         href="ae.html"><img src="./aem.png" style="height: 45px; width: 45px; " alt=""> AEM</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
-                        href="cybersecurity.html"> <img src="./security.png" style="height: 45px; width: 55px; " alt=""> CYBER SECURITY</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                        href="cybersecurity.html"> <img src="./security.png" style="height: 45px; width: 55px; " alt="">
+                        CYBER SECURITY</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
-                        href="python.html"><img src="./python.png" style="height: 45px; width: 45px; " alt=""> PYTHON</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                        href="python.html"><img src="./python.png" style="height: 45px; width: 45px; " alt="">
+                        PYTHON</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
-                        href="dataanalyst.html"> <img src="./analytics.png" style="height: 45px; width: 45px; " alt=""> DATA  ANALYTICS</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
+                        href="dataanalyst.html"> <img src="./analytics.png" style="height: 45px; width: 45px; " alt="">
+                        DATA ANALYTICS</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
-                        href="devops.html"><img src="./devops.jpg"  style="height: 50px; width: 80px; " alt=""> DEVOPS</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
+                        href="devops.html"><img src="./devops.jpg" style="height: 50px; width: 80px; " alt="">
+                        DEVOPS</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
                         href="ae.html"><img src="./aem.png" style="height: 45px; width: 45px; " alt=""> AEM</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
-                        href="cybersecurity.html"> <img src="./security.png" style="height: 45px; width: 55px; " alt=""> CYBER SECURITY</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                        href="cybersecurity.html"> <img src="./security.png" style="height: 45px; width: 55px; " alt="">
+                        CYBER SECURITY</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
-                        href="python.html"><img src="./python.png" style="height: 45px; width: 45px; " alt=""> PYTHON</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                        href="python.html"><img src="./python.png" style="height: 45px; width: 45px; " alt="">
+                        PYTHON</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
-                        href="dataanalyst.html"> <img src="./analytics.png" style="height: 45px; width: 45px; " alt=""> DATA  ANALYTICS</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
+                        href="dataanalyst.html"> <img src="./analytics.png" style="height: 45px; width: 45px; " alt="">
+                        DATA ANALYTICS</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
-                        href="devops.html"><img src="./devops.jpg" style="height: 50px; width: 80px; " alt=""> DEVOPS</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
+                        href="devops.html"><img src="./devops.jpg" style="height: 50px; width: 80px; " alt="">
+                        DEVOPS</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
                         href="ae.html"><img src="./aem.png" style="height: 45px; width: 45px; " alt=""> AEM</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
-                        href="cybersecurity.html"> <img src="./security.png" style="height: 45px; width: 55px; " alt=""> CYBER SECURITY</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                        href="cybersecurity.html"> <img src="./security.png" style="height: 45px; width: 55px; " alt="">
+                        CYBER SECURITY</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
-                        href="python.html"><img src="./python.png" style="height: 45px; width: 45px; " alt=""> PYTHON</a>
-                </div>  &nbsp; &nbsp;&nbsp;
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size: 22px; padding: 10px;"
+                        href="python.html"><img src="./python.png" style="height: 45px; width: 45px; " alt="">
+                        PYTHON</a>
+                </div> &nbsp; &nbsp;&nbsp;
                 <div class="lg-btn1 lg-btn-03 text-center">
-                    <a class="c-btn" style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
-                        href="dataanalyst.html"> <img src="./analytics.png" style="height: 45px; width: 45px; " alt=""> DATA  ANALYTICS</a>
-                </div> 
+                    <a class="c-btn"
+                        style="background-color: #ffffff; height: 75px; color: rgb(16, 15, 15); padding-top: 18px; border-radius: 10px; font-size:  22px; padding: 10px;"
+                        href="dataanalyst.html"> <img src="./analytics.png" style="height: 45px; width: 45px; " alt="">
+                        DATA ANALYTICS</a>
+                </div>
 
             </div>
         </marquee>
@@ -1011,7 +1066,7 @@
                                     <p>
                                         BANGALORE <br>
                                         KARNATAKA, INDIA<br><br>
-                                        <strong>Phone:</strong> +91 7975935848,  <br>
+                                        <strong>Phone:</strong> +91 7975935848, <br>
                                         <strong>Email:</strong> info@Learntec.com<br>
                                     </p>
 
@@ -1070,10 +1125,14 @@
 
                 <div class="container1">
                     <div class="footer-social-icon text-right ">
-                        <a class="fot-fb active" href="#"><img src="Facebook-Splash-Icon-PNG-S-09idfd.png" alt="" style="height: 40px; width: 40px;"> Facebook</a>
-                        <a class="fot-twitter" href="#"><img src="Twitter-Splash-Icon-PNG-S-09idfd.png" alt="" style="height: 40px; width: 40px;"> Twitter</a>
-                        <a class="fot-google" href="#"><img src="YouTube-Splash-Icon-PNG-S-09idfd.png" alt="" style="height: 40px; width: 40px;"> Youtube</a>
-                        <a class="fot-insta" href="#"><img src="Instagram-Splash-Icon-PNG-S-09idfd.png" alt="" style="height: 40px; width: 40px;"> Instagram</a>
+                        <a class="fot-fb active" href="#"><img src="Facebook-Splash-Icon-PNG-S-09idfd.png" alt=""
+                                style="height: 40px; width: 40px;"> Facebook</a>
+                        <a class="fot-twitter" href="#"><img src="Twitter-Splash-Icon-PNG-S-09idfd.png" alt=""
+                                style="height: 40px; width: 40px;"> Twitter</a>
+                        <a class="fot-google" href="#"><img src="YouTube-Splash-Icon-PNG-S-09idfd.png" alt=""
+                                style="height: 40px; width: 40px;"> Youtube</a>
+                        <a class="fot-insta" href="#"><img src="Instagram-Splash-Icon-PNG-S-09idfd.png" alt=""
+                                style="height: 40px; width: 40px;"> Instagram</a>
                     </div>
                     <br>
                 </div>
